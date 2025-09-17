@@ -1,6 +1,7 @@
 import LetterDisplay, { LetterStatus } from "./LetterDisplay";
 import React, { useEffect, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
+import TextDisplay from "./TextDisplay";
 
 interface TextDisplayProps {
     text: string;
@@ -28,60 +29,23 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
         resetBuffer();
     }, [text]);
 
-    const splitTextInHalf = () => {
-        const textLength = text.length;
-        const midPoint = Math.ceil(textLength / 2);
-        return {
-            firstLine: text.slice(0, midPoint),
-            secondLine: text.slice(midPoint)
+    // Handle top level key events like escape to reset
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            event.preventDefault();
+            if (event.key === 'Escape') {
+                setCursorPosition(0);
+                resetBuffer();
+            }
         };
-    };
-
-    const { firstLine, secondLine } = splitTextInHalf();
-
-    function letterStatusForIndex(globalIndex: number): LetterStatus {
-        if (globalIndex < cursorPosition) {
-            return LetterStatus.Correct;
-        } else if (globalIndex === cursorPosition) {
-            return isCorrect ? LetterStatus.Untyped : LetterStatus.Incorrect;
-        } else {
-            return LetterStatus.Untyped;
-        }
-    }
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     return (
-        <div className="typing-interface">
-            <div className="text-line">
-                {
-                    firstLine.split('').map((letter, index) => {
-                        const globalIndex = index;
-                        return (
-                            <LetterDisplay 
-                                key={`line1-${index}`} 
-                                letter={letter} 
-                                showCursor={globalIndex === cursorPosition}
-                                status={letterStatusForIndex(globalIndex)}
-                            />
-                        );
-                    })
-                }
-            </div>
-            <div className="text-line">
-                {
-                    secondLine.split('').map((letter, index) => {
-                        const globalIndex = firstLine.length + index;
-                        return (
-                            <LetterDisplay 
-                                key={`line2-${index}`} 
-                                letter={letter} 
-                                showCursor={globalIndex === cursorPosition}
-                                status={letterStatusForIndex(globalIndex)}
-                            />
-                        );
-                    })
-                }
-            </div>
-        </div>
+        <TextDisplay text={text} cursorPosition={cursorPosition} currentLetter={currentLetter} isLastestLetterCorrect={isCorrect} />
     );
 };
 

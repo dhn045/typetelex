@@ -15,25 +15,22 @@
   padding: 1rem;
   border-radius: 8px;
   font-family: 'Courier New', monospace;
-  font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .text-line {
   display: flex;
   flex-wrap: nowrap;
   min-height: 2em;
-  padding: 0.5rem;
-  border-radius: 4px;
 }
 
 .letter {
   display: inline-block;
-  min-width: 0.8em;
+  min-width: .6em;
   height: 1.5em;
   line-height: 1.5em;
   text-align: center;
-  padding: 0 2px;
-  margin: 0 1px;
   border-radius: 2px;
   transition: background-color 0.2s ease;
   color: rgba(255, 255, 255, 0.6);
