@@ -48,8 +48,16 @@
   animation: blink 1s infinite;
 }
 
-.letter.typed {
+.letter.untyped {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.letter.correct {
   color: white;
+}
+
+.letter.incorrect {
+  color: #ff6b6b;
 }
 
 @keyframes blink {

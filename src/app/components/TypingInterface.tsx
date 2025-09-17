@@ -1,4 +1,4 @@
-import LetterDisplay from "./LetterDisplay";
+import LetterDisplay, { LetterStatus } from "./LetterDisplay";
 import React, { useEffect, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
 
@@ -9,25 +9,17 @@ interface TextDisplayProps {
 const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
     const { currentLetter, resetBuffer } = useTelexInput();
     const [cursorPosition, setCursorPosition] = useState<number>(0);
+    const [isCorrect, setIsCorrect] = useState<boolean>(true);
 
     // React to letter changes and update cursor position
     useEffect(() => {
-        console.log('=== TypingInterface useEffect triggered ===');
-        console.log('currentLetter:', currentLetter);
-        console.log('cursorPosition:', cursorPosition);
-        console.log('text[cursorPosition]:', text[cursorPosition]);
-        console.log('Match?', currentLetter === text[cursorPosition]);
-        
         if (currentLetter && text[cursorPosition] === currentLetter) {
-            console.log('✅ Characters match! Advancing cursor');
-            setCursorPosition(prev => {
-                console.log('📍 Cursor moving from', prev, 'to', prev + 1);
-                return prev + 1;
-            });
+            setCursorPosition(prev => prev + 1);
+            setIsCorrect(true);
         } else if (currentLetter) {
-            console.log('❌ Characters do not match');
+            // Incorrect letter typed, could add error handling here
+            setIsCorrect(false);
         }
-        console.log('==========================================');
     }, [currentLetter]);
 
     // Reset all state when text changes
@@ -47,6 +39,16 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
 
     const { firstLine, secondLine } = splitTextInHalf();
 
+    function letterStatusForIndex(globalIndex: number): LetterStatus {
+        if (globalIndex < cursorPosition) {
+            return LetterStatus.Correct;
+        } else if (globalIndex === cursorPosition) {
+            return isCorrect ? LetterStatus.Untyped : LetterStatus.Incorrect;
+        } else {
+            return LetterStatus.Untyped;
+        }
+    }
+
     return (
         <div className="typing-interface">
             <div className="text-line">
@@ -58,7 +60,7 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
                                 key={`line1-${index}`} 
                                 letter={letter} 
                                 showCursor={globalIndex === cursorPosition}
-                                isTyped={globalIndex < cursorPosition}
+                                status={letterStatusForIndex(globalIndex)}
                             />
                         );
                     })
@@ -73,7 +75,7 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
                                 key={`line2-${index}`} 
                                 letter={letter} 
                                 showCursor={globalIndex === cursorPosition}
-                                isTyped={globalIndex < cursorPosition}
+                                status={letterStatusForIndex(globalIndex)}
                             />
                         );
                     })
