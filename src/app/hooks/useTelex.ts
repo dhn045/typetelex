@@ -9,36 +9,33 @@ interface UseTelexInputReturn {
 const ALPHA_REGEX = /^[a-zA-Z ]$/;
 
 export const useTelexInput = (): UseTelexInputReturn => {
-  const [charBuffer, setCharBuffer] = useState<string>('');
+  const [, setCharBuffer] = useState<string>('');
   const [currentLetter, setCurrentLetter] = useState<string>('');
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (!ALPHA_REGEX.test(event.key)) return;
-      // add logging
-      console.log('Key pressed:', event.key);
-      const newBuffer = charBuffer + event.key;
-      console.log('New buffer:', newBuffer);
-      const telexChar = TELEX_MAP[newBuffer];
-      console.log('Mapped telex character:', telexChar);
-      console.log('--------------------------');
-      
-      if (telexChar !== undefined) {
+      setCharBuffer(prev => {
+        if (!ALPHA_REGEX.test(event.key)) return prev;
+        const newBuffer = prev + event.key;
+        const telexChar = TELEX_MAP[newBuffer];
+
+        if (telexChar !== undefined) {
         // Found a telex mapping, continue building
         setCurrentLetter(telexChar);
-        setCharBuffer(newBuffer);
+        return newBuffer;
       } else {
         // No telex mapping found, use the raw character and reset buffer
         setCurrentLetter(event.key);
-        setCharBuffer(event.key);
+        return event.key;
       }
+    });
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [charBuffer]);
+  }, []);
 
   const resetBuffer = () => {
     setCharBuffer('');
