@@ -14,7 +14,9 @@ export const useTelexInput = (): UseTelexInputReturn => {
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      event.preventDefault();
+      if (event.code === 'Space') {
+          event.preventDefault();
+      }
       setCharBuffer(prev => {
         if (!ALPHA_REGEX.test(event.key)) return prev;
         const newBuffer = prev + event.key;

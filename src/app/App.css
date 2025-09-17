@@ -6,7 +6,7 @@
 }
 
 /* Two-line text field styles */
-.typing-interface {
+.text-display {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -55,6 +55,10 @@
 
 .letter.incorrect {
   color: #ff6b6b;
+}
+
+.letter.partially-correct {
+  color: #ffd93b;
 }
 
 @keyframes blink {

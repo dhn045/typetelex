@@ -1,12 +1,5 @@
 import React from 'react';
-
-export const LetterStatus = {
-    Untyped: 'untyped',
-    Correct: 'correct',
-    Incorrect: 'incorrect'
-} as const;
-
-export type LetterStatus = typeof LetterStatus[keyof typeof LetterStatus];
+import type { LetterStatus } from './TypingInterface';
 
 interface LetterDisplayProps {
     letter: string;
