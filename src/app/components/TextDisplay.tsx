@@ -2,66 +2,68 @@ import React from 'react';
 import LetterDisplay from './LetterDisplay';
 import { LetterStatus } from './TypingInterface';
 
+export const TextDisplayUseCase = {
+    MainDisplay: 'main-text-display',
+    ProgressionDisplay: 'progression-text-display',
+} as const;
+
+export type TextDisplayUseCase = typeof TextDisplayUseCase[keyof typeof TextDisplayUseCase];
+
 interface TextDisplayProps {
+    useCase: TextDisplayUseCase
     text: string;
+    showCursor: boolean
     cursorPosition: number;
     currentLetter: string;
     latestLetterStatus: LetterStatus;
+    numberOfLines: number;
 }
 
-const TextDisplay: React.FC<TextDisplayProps> = ({ text, cursorPosition, currentLetter, latestLetterStatus }) => {
-    const splitTextInHalf = () => {
-        const textLength = text.length;
-        const midPoint = Math.ceil(textLength / 2);
-        return {
-            firstLine: text.slice(0, midPoint),
-            secondLine: text.slice(midPoint)
-        };
+const TextDisplay: React.FC<TextDisplayProps> = ({ useCase, text, showCursor, cursorPosition, currentLetter, latestLetterStatus, numberOfLines}) => {
+
+    const splitTextIntoLines = (numLines: number) => {
+        const lines: string[] = [];
+        const lineLength = Math.ceil(text.length / numLines);
+        for (let i = 0; i < numLines; i++) {
+            lines.push(text.slice(i * lineLength, (i + 1) * lineLength));
+        }
+        return lines;
     };
 
     const getLetterStatus = (globalIndex: number): LetterStatus => {
         if (globalIndex < cursorPosition) {
-            // Letter has been passed - it's correct
             return LetterStatus.Correct;
         } else if (globalIndex === cursorPosition && currentLetter && text[globalIndex] !== currentLetter) {
-            // Currently at this position and letter is incorrect
+            // Maybe incorrect or partially correct
             return latestLetterStatus;
         } else {
-            // Not yet typed
             return LetterStatus.Untyped;
         }
     };
 
-    const { firstLine, secondLine } = splitTextInHalf();
+    const lines = splitTextIntoLines(numberOfLines);
 
     return (
-        <div className="text-display">
-            <div className="text-line">
-                {firstLine.split('').map((letter, index) => {
-                    const globalIndex = index;
-                    return (
-                        <LetterDisplay 
-                            key={`line1-${index}`} 
-                            letter={letter} 
-                            showCursor={globalIndex === cursorPosition}
-                            status={getLetterStatus(globalIndex)}
-                        />
-                    );
-                })}
-            </div>
-            <div className="text-line">
-                {secondLine.split('').map((letter, index) => {
-                    const globalIndex = firstLine.length + index;
-                    return (
-                        <LetterDisplay 
-                            key={`line2-${index}`} 
-                            letter={letter} 
-                            showCursor={globalIndex === cursorPosition}
-                            status={getLetterStatus(globalIndex)}
-                        />
-                    );
-                })}
-            </div>
+        <div className={`text-display ${useCase}`}>
+            {lines.map((line, lineIndex) => {
+                // Calculate the starting global index for this line
+                const lineStartIndex = lines.slice(0, lineIndex).reduce((sum, prevLine) => sum + prevLine.length, 0);
+                return (
+                    <div key={`line-${lineIndex}`} className="text-line">
+                        {line.split('').map((letter, letterIndex) => {
+                            const globalIndex = lineStartIndex + letterIndex;
+                            return (
+                                <LetterDisplay
+                                    key={`line${lineIndex + 1}-${letterIndex}`}
+                                    letter={letter}
+                                    showCursor={showCursor && globalIndex === cursorPosition}
+                                    status={getLetterStatus(globalIndex)}
+                                />
+                            );
+                        })}
+                    </div>
+                );
+            })}
         </div>
     );
 };

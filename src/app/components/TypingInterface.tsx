@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
-import TextDisplay from "./TextDisplay";
+import TextDisplay, { TextDisplayUseCase } from "./TextDisplay";
 import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
 import InfoDisplay from './InfoDisplay';
 import { useMetrics } from '../hooks/useMetrics';
 import { useTextGenerator } from '../hooks/useTextGenerator';
+import { ProgressionDisplay } from './ProgressionDisplay';
 
 export const LetterStatus = {
     Correct: 'correct',
@@ -75,7 +76,16 @@ const TypingInterface: React.FC = () => {
     return (
         <div>
             <InfoDisplay currentChar={currentLetter} wpm={wpm} accuracy={accuracy} />
-            <TextDisplay text={generatedText} cursorPosition={cursorPosition} currentLetter={currentLetter} latestLetterStatus={latestLetterStatus} />
+            <TextDisplay
+                useCase={TextDisplayUseCase.MainDisplay}
+                text={generatedText}
+                showCursor={true}
+                cursorPosition={cursorPosition}
+                currentLetter={currentLetter}
+                latestLetterStatus={latestLetterStatus}
+                numberOfLines={2}
+            />
+            <ProgressionDisplay />
         </div>
     );
 };

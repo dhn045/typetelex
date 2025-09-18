@@ -1,3 +1,4 @@
+import { ProgressionDisplay } from "./ProgressionDisplay";
 
 
 interface InfoDisplayProps {
