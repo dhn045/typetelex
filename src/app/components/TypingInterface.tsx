@@ -6,6 +6,7 @@ import InfoDisplay from './InfoDisplay';
 import { useMetrics } from '../hooks/useMetrics';
 import { useTextGenerator } from '../hooks/useTextGenerator';
 import { ProgressionDisplay } from './ProgressionDisplay';
+import { letterProgression } from '../utils/vietnameseLetterProgression';
 
 export const LetterStatus = {
     Correct: 'correct',
@@ -16,17 +17,25 @@ export const LetterStatus = {
 
 export type LetterStatus = typeof LetterStatus[keyof typeof LetterStatus];
 
+const flatProgression = letterProgression.flat();
+
 const TypingInterface: React.FC = () => {
 
     const { currentLetter, resetBuffer } = useTelexInput();
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
     const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
-    const { generatedText, generateText } = useTextGenerator({availableCharacters: new Set('nhticgađômà '.split('')), maxLength: 60});
+    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(2);
+    const availableCharacters = React.useMemo(() => {
+        console.log('Recalculating available characters');
+        return new Set(' ' + flatProgression.slice(0, currentProgressionIndex + 1));
+    }, [currentProgressionIndex]);
+    const { generatedText, generateText } = useTextGenerator({availableCharacters, maxLength: 60});
 
+    // Regenerate text when progression advances to use newly available characters
     useEffect(() => {
         generateText();
-    }, []);
+    }, [currentProgressionIndex]);
 
     // React to letter changes and update cursor position
     useEffect(() => {
@@ -38,6 +47,13 @@ const TypingInterface: React.FC = () => {
             setCursorPosition(prev => prev + 1);
             setLatestLetterStatus(LetterStatus.Untyped);
             logCorrectCharacter();
+            if (cursorPosition + 1 >= generatedText.length) {
+                if (wpm > 30 && accuracy > .90) {
+                    setCurrentProgressionIndex(prev => prev + 1);
+                } else {
+                    generateText();
+                }
+            }
         } else {
             // Letter can be partially correct (e.g. 'a' when 'á' is expected)
             const targetChar = generatedText[cursorPosition];
