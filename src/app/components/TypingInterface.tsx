@@ -3,6 +3,7 @@ import { useTelexInput } from '../hooks/useTelex';
 import TextDisplay from "./TextDisplay";
 import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
 import InfoDisplay from './InfoDisplay';
+import { useMetrics } from '../hooks/useMetrics';
 
 const MILLISECONDS_IN_MINUTE = 60000;
 const AVERAGE_WORD_LENGTH = 5; // Standard word length for WPM calculation
@@ -36,30 +37,18 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
     const { currentLetter, resetBuffer } = useTelexInput();
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
-
-    // Typing statistics state
-    const [startTime, setStartTime] = useState<number | null>(null);
-    const [totalCharactersTyped, setTotalCharactersTyped] = useState<number>(0);
-    const [correctCharactersTyped, setCorrectCharactersTyped] = useState<number>(0);
-    const [currentWpm, setCurrentWpm] = useState<number>(0);
-    const [currentAccuracy, setCurrentAccuracy] = useState<number>(100);
+    const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
 
     // React to letter changes and update cursor position
     useEffect(() => {
         if(!currentLetter) {
             return;
         }
-        if (startTime === null) {
-            setStartTime(Date.now());
-        }
 
         if (text[cursorPosition] === currentLetter) {
             setCursorPosition(prev => prev + 1);
             setLatestLetterStatus(LetterStatus.Untyped);
-            setTotalCharactersTyped(prev => prev + 1);
-            setCorrectCharactersTyped(prev => prev + 1);
-            setCurrentWpm(calculateWpm(totalCharactersTyped + 1, startTime!));
-            setCurrentAccuracy(calculateAccuracy(correctCharactersTyped + 1, totalCharactersTyped + 1));
+            logCorrectCharacter();
         } else {
             // Letter can be partially correct (e.g. 'a' when 'á' is expected)
             const targetChar = text[cursorPosition];
@@ -67,9 +56,7 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
                 setLatestLetterStatus(LetterStatus.PartiallyCorrect);
             } else {
                 setLatestLetterStatus(LetterStatus.Incorrect);
-                setTotalCharactersTyped(prev => prev + 1);
-                setCurrentWpm(calculateWpm(totalCharactersTyped + 1, startTime!));
-                setCurrentAccuracy(calculateAccuracy(correctCharactersTyped, totalCharactersTyped + 1));
+                logIncorrectCharacter();
             }
         }
     }, [currentLetter]);
@@ -78,6 +65,8 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
     useEffect(() => {
         setCursorPosition(0);
         resetBuffer();
+        resetMetrics();
+        setLatestLetterStatus(LetterStatus.Untyped);
     }, [text]);
 
     // Handle top level key events like escape to reset
@@ -99,7 +88,7 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
 
     return (
         <div>
-            <InfoDisplay currentChar={currentLetter} wpm={currentWpm} accuracy={currentAccuracy} />
+            <InfoDisplay currentChar={currentLetter} wpm={wpm} accuracy={accuracy} />
             <TextDisplay text={text} cursorPosition={cursorPosition} currentLetter={currentLetter} latestLetterStatus={latestLetterStatus} />
         </div>
     );

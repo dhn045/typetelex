@@ -153,4 +153,4 @@ export const TELEX_INTERMEDIATE_FORMS: Record<string, string[]> = {
   'ự': ['u', 'ư'],      // uwj → ự
 };
 
-export const VIETNAMESE_PANGRAM = "Quý khách đã xem bộ phim về cuộc phiêu lưu của những người thổ dân ăn trái cây ngọt và uống nước mắm từ vùng đất xa xôi không?";
+export const VIETNAMESE_PANGRAM = "Quý khách đã xem bộ phim về cuộc phiêu lưu của những người thổ dân ăn trái cây ngọt và uống nước mắm từ vùng đất xa xôi không";
