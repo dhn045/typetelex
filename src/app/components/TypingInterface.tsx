@@ -2,6 +2,22 @@ import React, { useEffect, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
 import TextDisplay from "./TextDisplay";
 import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
+import InfoDisplay from './InfoDisplay';
+
+const MILLISECONDS_IN_MINUTE = 60000;
+const AVERAGE_WORD_LENGTH = 5; // Standard word length for WPM calculation
+
+
+const calculateWpm = (charactersTyped: number, startTime: number) => {
+    const elapsedMinutes = (Date.now() - startTime) / MILLISECONDS_IN_MINUTE;
+    if (elapsedMinutes === 0) return 0;
+    return Math.round((charactersTyped / AVERAGE_WORD_LENGTH) / elapsedMinutes);
+};
+
+const calculateAccuracy = (correct: number, total: number) => {
+    if (total === 0) return 100;
+    return (correct / total) * 100;
+};
 
 interface TextDisplayProps {
     text: string;
@@ -21,18 +37,39 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
 
+    // Typing statistics state
+    const [startTime, setStartTime] = useState<number | null>(null);
+    const [totalCharactersTyped, setTotalCharactersTyped] = useState<number>(0);
+    const [correctCharactersTyped, setCorrectCharactersTyped] = useState<number>(0);
+    const [currentWpm, setCurrentWpm] = useState<number>(0);
+    const [currentAccuracy, setCurrentAccuracy] = useState<number>(100);
+
     // React to letter changes and update cursor position
     useEffect(() => {
-        if (currentLetter && text[cursorPosition] === currentLetter) {
+        if(!currentLetter) {
+            return;
+        }
+        if (startTime === null) {
+            setStartTime(Date.now());
+        }
+
+        if (text[cursorPosition] === currentLetter) {
             setCursorPosition(prev => prev + 1);
             setLatestLetterStatus(LetterStatus.Untyped);
-        } else if (currentLetter) {
+            setTotalCharactersTyped(prev => prev + 1);
+            setCorrectCharactersTyped(prev => prev + 1);
+            setCurrentWpm(calculateWpm(totalCharactersTyped + 1, startTime!));
+            setCurrentAccuracy(calculateAccuracy(correctCharactersTyped + 1, totalCharactersTyped + 1));
+        } else {
             // Letter can be partially correct (e.g. 'a' when 'á' is expected)
             const targetChar = text[cursorPosition];
             if (TELEX_INTERMEDIATE_FORMS[targetChar] && TELEX_INTERMEDIATE_FORMS[targetChar].includes(currentLetter)) {
                 setLatestLetterStatus(LetterStatus.PartiallyCorrect);
             } else {
                 setLatestLetterStatus(LetterStatus.Incorrect);
+                setTotalCharactersTyped(prev => prev + 1);
+                setCurrentWpm(calculateWpm(totalCharactersTyped + 1, startTime!));
+                setCurrentAccuracy(calculateAccuracy(correctCharactersTyped, totalCharactersTyped + 1));
             }
         }
     }, [currentLetter]);
@@ -61,7 +98,10 @@ const TypingInterface: React.FC<TextDisplayProps> = ({ text }) => {
     }, []);
 
     return (
-        <TextDisplay text={text} cursorPosition={cursorPosition} currentLetter={currentLetter} latestLetterStatus={latestLetterStatus} />
+        <div>
+            <InfoDisplay currentChar={currentLetter} wpm={currentWpm} accuracy={currentAccuracy} />
+            <TextDisplay text={text} cursorPosition={cursorPosition} currentLetter={currentLetter} latestLetterStatus={latestLetterStatus} />
+        </div>
     );
 };
 

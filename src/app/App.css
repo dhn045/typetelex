@@ -10,13 +10,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-width: 800px;
   margin: 2rem auto;
-  padding: 1rem;
-  border-radius: 8px;
   font-family: 'Courier New', monospace;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .text-line {
@@ -27,7 +24,7 @@
 
 .letter {
   display: inline-block;
-  min-width: .6em;
+  min-width: .5em;
   height: 1.5em;
   line-height: 1.5em;
   text-align: center;
@@ -68,4 +65,44 @@
   51%, 100% {
     border-bottom-color: transparent;
   }
+}
+
+/* Info Display Styles */
+.info-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1rem auto;
+  font-family: 'Andale Mono', monospace;
+}
+
+.current-char {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  min-width: 4rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-family: 'Courier New', monospace;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.accuracy {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.25rem;
+}
+
+.wpm {
+  font-size: 3rem;
 }
