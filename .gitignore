@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vietnamese text processing intermediary files
+text_processing/vietnamese_10k_words.txt
+text_processing/vietnamese_character_frequencies.json
+text_processing/vietnamese_bigram_frequencies.json
+text_processing/vietnamese_trigram_frequencies.json

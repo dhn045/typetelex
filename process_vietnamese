@@ -19,8 +19,12 @@ echo "🛠️  Step 3: Generating TypeScript character frequency map..."
 python3 text_processing/generate_char_freq_map.py
 
 echo ""
-echo "🔗 Step 4: Generating TypeScript transition probability map..."
-python3 text_processing/generate_bigram_map.py
+echo "🔗 Step 4: Generating TypeScript bigram transition map..."
+python3 text_processing/generate_ngram_map.py bigram text_processing/vietnamese_bigram_frequencies.json src/app/utils/vietnameseTransitions.ts vietnameseTransitions
+
+echo ""
+echo "🔗 Step 5: Generating TypeScript trigram transition map..."
+python3 text_processing/generate_ngram_map.py trigram text_processing/vietnamese_trigram_frequencies.json src/app/utils/vietnameseTrigrams.ts vietnameseTrigrams
 
 echo ""
 echo "✅ Vietnamese language processing complete!"
@@ -31,3 +35,4 @@ echo "   - text_processing/vietnamese_bigram_frequencies.json"
 echo "   - text_processing/vietnamese_trigram_frequencies.json"
 echo "   - src/app/utils/vietnameseCharacterFrequencies.ts"
 echo "   - src/app/utils/vietnameseTransitions.ts"
+echo "   - src/app/utils/vietnameseTrigrams.ts"

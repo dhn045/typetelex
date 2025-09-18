@@ -95,7 +95,8 @@ src/
 │   ├── utils/             # App utilities and data
 │   │   ├── telex.tsx                          # Vietnamese Telex input mappings
 │   │   ├── vietnameseCharacterFrequencies.ts  # Single character frequency data
-│   │   └── vietnameseTransitions.ts           # Character transition probabilities
+│   │   ├── vietnameseTransitions.ts           # Character transition probabilities (bigrams)
+│   │   └── vietnameseTrigrams.ts              # Trigram transition probabilities
 │   ├── App.tsx              # Root app component
 │   └── App.css              # App-specific styles
 ├── main.tsx                # React app entry point
@@ -111,7 +112,7 @@ text_processing/            # Vietnamese corpus processing (development only)
 ├── analyze_frequencies.py                # Script to analyze character patterns
 ├── generate_vietnamese_10k.py            # Script to generate corpus
 ├── generate_char_freq_map.py             # Script to generate TS character frequencies
-└── generate_bigram_map.py                # Script to generate TS transition maps
+└── generate_ngram_map.py                 # Script to generate TS n-gram maps (bigrams, trigrams)
 ```
 
 ### Future Expansion
@@ -195,6 +196,9 @@ The `process_vietnamese` script automates the complete data pipeline:
 1. **Corpus Generation**: Creates 10k-word corpus from frequency data (filters out f, j, w, z)
 2. **Frequency Analysis**: Generates character, bigram, and trigram frequency JSON files
 3. **TypeScript Generation**: Creates optimized Map structures for runtime use
+   - Character frequencies for difficulty progression
+   - Bigram transitions for word boundary detection
+   - Trigram transitions for more sophisticated text prediction
 
 ### Regenerating Data
 To update Vietnamese language statistics, use the automated script:
