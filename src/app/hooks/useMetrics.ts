@@ -39,7 +39,7 @@ export const useMetrics = () => {
 
         setTotalCharactersTyped(newTotal);
         setCorrectCharactersTyped(newCorrect);
-        setCurrentWpm(calculateWpm(newTotal, effectiveStartTime));
+        setCurrentWpm(calculateWpm(newCorrect, effectiveStartTime));
         setCurrentAccuracy(calculateAccuracy(newCorrect, newTotal));
     }, [startTimerIfNeeded, totalCharactersTyped, correctCharactersTyped]);
 
@@ -48,7 +48,7 @@ export const useMetrics = () => {
         const newTotal = totalCharactersTyped + 1;
 
         setTotalCharactersTyped(newTotal);
-        setCurrentWpm(calculateWpm(newTotal, effectiveStartTime));
+        setCurrentWpm(calculateWpm(correctCharactersTyped, effectiveStartTime));
         setCurrentAccuracy(calculateAccuracy(correctCharactersTyped, newTotal));
     }, [startTimerIfNeeded, totalCharactersTyped, correctCharactersTyped]);
 

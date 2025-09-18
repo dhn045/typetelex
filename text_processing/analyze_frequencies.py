@@ -18,8 +18,18 @@ def load_corpus(filename):
         print(f"Error: Could not find {filename}")
         return ""
 
+def extract_characters_with_spaces(text):
+    """Extract Vietnamese characters and preserve spaces for word boundary analysis."""
+    vietnamese_pattern = r'[a-zA-ZàáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐ\s]'
+    
+    # Extract Vietnamese characters and spaces, clean up multiple spaces
+    cleaned_text = re.sub(r'[^a-zA-ZàáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐ\s]', '', text)
+    cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
+    
+    return cleaned_text.lower()
+
 def extract_characters(text):
-    """Extract only Vietnamese alphabetic characters (no spaces or punctuation)."""
+    """Extract only Vietnamese alphabetic characters (no spaces) for character frequency analysis."""
     vietnamese_pattern = r'[a-zA-ZàáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐ]'
     characters = re.findall(vietnamese_pattern, text)
     return ''.join(characters).lower()
@@ -109,19 +119,23 @@ def main():
     
     print(f"Corpus loaded: {len(text)} characters")
     
-    # Extract only Vietnamese characters (lowercase)
+    # Extract Vietnamese characters for character analysis (no spaces)
     clean_text = extract_characters(text)
     print(f"Clean text: {len(clean_text)} Vietnamese characters")
+    
+    # Extract Vietnamese characters with spaces for bigram analysis
+    text_with_spaces = extract_characters_with_spaces(text)
+    print(f"Text with spaces: {len(text_with_spaces)} characters (including spaces)")
     
     # Calculate frequencies
     print("\nCalculating character frequencies...")
     char_freq = calculate_character_frequencies(clean_text)
     
-    print("Calculating bigram frequencies...")
-    bigram_freq = calculate_bigram_frequencies(clean_text)
+    print("Calculating bigram frequencies (including word boundaries)...")
+    bigram_freq = calculate_bigram_frequencies(text_with_spaces)
     
-    print("Calculating trigram frequencies...")
-    trigram_freq = calculate_trigram_frequencies(clean_text)
+    print("Calculating trigram frequencies (including word boundaries)...")
+    trigram_freq = calculate_trigram_frequencies(text_with_spaces)
     
     # Save to JSON files
     save_frequencies_json(
