@@ -1,0 +1,6526 @@
+{
+  "description": "Vietnamese character bigram frequencies from 10k word corpus",
+  "total_items": 1630,
+  "data": {
+    "vậ": {
+      "count": 56,
+      "frequency": 0.1744
+    },
+    "ậy": {
+      "count": 57,
+      "frequency": 0.1775
+    },
+    "yđ": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "đẹ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ẹp": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "pk": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "kh": {
+      "count": 403,
+      "frequency": 1.2551
+    },
+    "hu": {
+      "count": 99,
+      "frequency": 0.3083
+    },
+    "uy": {
+      "count": 99,
+      "frequency": 0.3083
+    },
+    "yê": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "ên": {
+      "count": 145,
+      "frequency": 0.4516
+    },
+    "nc": {
+      "count": 160,
+      "frequency": 0.4983
+    },
+    "ch": {
+      "count": 711,
+      "frequency": 2.2143
+    },
+    "hú": {
+      "count": 159,
+      "frequency": 0.4952
+    },
+    "ún": {
+      "count": 143,
+      "frequency": 0.4453
+    },
+    "ng": {
+      "count": 1551,
+      "frequency": 4.8303
+    },
+    "gđ": {
+      "count": 138,
+      "frequency": 0.4298
+    },
+    "đó": {
+      "count": 100,
+      "frequency": 0.3114
+    },
+    "ót": {
+      "count": 69,
+      "frequency": 0.2149
+    },
+    "tr": {
+      "count": 237,
+      "frequency": 0.7381
+    },
+    "rờ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ời": {
+      "count": 108,
+      "frequency": 0.3363
+    },
+    "it": {
+      "count": 262,
+      "frequency": 0.8159
+    },
+    "tô": {
+      "count": 293,
+      "frequency": 0.9125
+    },
+    "ôi": {
+      "count": 325,
+      "frequency": 1.0121
+    },
+    "ic": {
+      "count": 222,
+      "frequency": 0.6914
+    },
+    "cả": {
+      "count": 77,
+      "frequency": 0.2398
+    },
+    "ảh": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "hã": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "ãy": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ym": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "mẹ": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ẹg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gi": {
+      "count": 154,
+      "frequency": 0.4796
+    },
+    "iế": {
+      "count": 145,
+      "frequency": 0.4516
+    },
+    "ết": {
+      "count": 144,
+      "frequency": 0.4485
+    },
+    "tq": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "qu": {
+      "count": 102,
+      "frequency": 0.3177
+    },
+    "ua": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "ay": {
+      "count": 78,
+      "frequency": 0.2429
+    },
+    "yh": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ha": {
+      "count": 82,
+      "frequency": 0.2554
+    },
+    "an": {
+      "count": 350,
+      "frequency": 1.09
+    },
+    "ns": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "sẽ": {
+      "count": 85,
+      "frequency": 0.2647
+    },
+    "ẽk": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "hô": {
+      "count": 324,
+      "frequency": 1.009
+    },
+    "ôn": {
+      "count": 411,
+      "frequency": 1.28
+    },
+    "gc": {
+      "count": 217,
+      "frequency": 0.6758
+    },
+    "có": {
+      "count": 178,
+      "frequency": 0.5543
+    },
+    "rư": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "ướ": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "ớc": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "cc": {
+      "count": 65,
+      "frequency": 0.2024
+    },
+    "cò": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "òn": {
+      "count": 43,
+      "frequency": 0.1339
+    },
+    "nk": {
+      "count": 57,
+      "frequency": 0.1775
+    },
+    "hi": {
+      "count": 169,
+      "frequency": 0.5263
+    },
+    "ie": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "em": {
+      "count": 92,
+      "frequency": 0.2865
+    },
+    "mn": {
+      "count": 42,
+      "frequency": 0.1308
+    },
+    "gh": {
+      "count": 121,
+      "frequency": 0.3768
+    },
+    "he": {
+      "count": 52,
+      "frequency": 0.1619
+    },
+    "er": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "rồ": {
+      "count": 84,
+      "frequency": 0.2616
+    },
+    "ồi": {
+      "count": 89,
+      "frequency": 0.2772
+    },
+    "is": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "sĩ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ĩm": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "mà": {
+      "count": 61,
+      "frequency": 0.19
+    },
+    "ày": {
+      "count": 111,
+      "frequency": 0.3457
+    },
+    "yk": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "đã": {
+      "count": 106,
+      "frequency": 0.3301
+    },
+    "ãb": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "bá": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "áo": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "oc": {
+      "count": 68,
+      "frequency": 0.2118
+    },
+    "óđ": {
+      "count": 29,
+      "frequency": 0.0903
+    },
+    "đâ": {
+      "count": 89,
+      "frequency": 0.2772
+    },
+    "âu": {
+      "count": 48,
+      "frequency": 0.1495
+    },
+    "ux": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "xá": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ác": {
+      "count": 90,
+      "frequency": 0.2803
+    },
+    "ct": {
+      "count": 80,
+      "frequency": 0.2491
+    },
+    "th": {
+      "count": 549,
+      "frequency": 1.7097
+    },
+    "hậ": {
+      "count": 53,
+      "frequency": 0.1651
+    },
+    "ật": {
+      "count": 43,
+      "frequency": 0.1339
+    },
+    "ts": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "sa": {
+      "count": 90,
+      "frequency": 0.2803
+    },
+    "au": {
+      "count": 30,
+      "frequency": 0.0934
+    },
+    "uc": {
+      "count": 62,
+      "frequency": 0.1931
+    },
+    "cô": {
+      "count": 112,
+      "frequency": 0.3488
+    },
+    "ôt": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "hẳ": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ẳn": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "gl": {
+      "count": 68,
+      "frequency": 0.2118
+    },
+    "là": {
+      "count": 300,
+      "frequency": 0.9343
+    },
+    "àk": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ké": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "éo": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "đừ": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ừn": {
+      "count": 36,
+      "frequency": 0.1121
+    },
+    "gs": {
+      "count": 41,
+      "frequency": 0.1277
+    },
+    "ĩk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cư": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ới": {
+      "count": 123,
+      "frequency": 0.3831
+    },
+    "ós": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "sự": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "ựn": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "nà": {
+      "count": 126,
+      "frequency": 0.3924
+    },
+    "ào": {
+      "count": 99,
+      "frequency": 0.3083
+    },
+    "óp": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ph": {
+      "count": 165,
+      "frequency": 0.5139
+    },
+    "há": {
+      "count": 60,
+      "frequency": 0.1869
+    },
+    "án": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "nt": {
+      "count": 173,
+      "frequency": 0.5388
+    },
+    "tu": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "uổ": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ổi": {
+      "count": 29,
+      "frequency": 0.0903
+    },
+    "tì": {
+      "count": 25,
+      "frequency": 0.0779
+    },
+    "ìm": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "mc": {
+      "count": 53,
+      "frequency": 0.1651
+    },
+    "hà": {
+      "count": 69,
+      "frequency": 0.2149
+    },
+    "ậm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hỗ": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ỗc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ia": {
+      "count": 65,
+      "frequency": 0.2024
+    },
+    "ad": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "dạ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ại": {
+      "count": 90,
+      "frequency": 0.2803
+    },
+    "cá": {
+      "count": 109,
+      "frequency": 0.3395
+    },
+    "ái": {
+      "count": 79,
+      "frequency": 0.246
+    },
+    "ôh": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hơ": {
+      "count": 43,
+      "frequency": 0.1339
+    },
+    "ơi": {
+      "count": 53,
+      "frequency": 0.1651
+    },
+    "ig": {
+      "count": 50,
+      "frequency": 0.1557
+    },
+    "gử": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ửi": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "in": {
+      "count": 216,
+      "frequency": 0.6727
+    },
+    "nh": {
+      "count": 728,
+      "frequency": 2.2672
+    },
+    "gn": {
+      "count": 133,
+      "frequency": 0.4142
+    },
+    "gờ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ờt": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ti": {
+      "count": 64,
+      "frequency": 0.1993
+    },
+    "hữ": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "ữn": {
+      "count": 43,
+      "frequency": 0.1339
+    },
+    "gp": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "hụ": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ụn": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ao": {
+      "count": 111,
+      "frequency": 0.3457
+    },
+    "ob": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ođ": {
+      "count": 34,
+      "frequency": 0.1059
+    },
+    "đư": {
+      "count": 138,
+      "frequency": 0.4298
+    },
+    "ượ": {
+      "count": 140,
+      "frequency": 0.436
+    },
+    "ợc": {
+      "count": 127,
+      "frequency": 0.3955
+    },
+    "cđ": {
+      "count": 38,
+      "frequency": 0.1183
+    },
+    "đi": {
+      "count": 133,
+      "frequency": 0.4142
+    },
+    "hị": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "ịđ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "gk": {
+      "count": 70,
+      "frequency": 0.218
+    },
+    "gô": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ản": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "nn": {
+      "count": 92,
+      "frequency": 0.2865
+    },
+    "ni": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "iề": {
+      "count": 56,
+      "frequency": 0.1744
+    },
+    "ềm": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "mđ": {
+      "count": 41,
+      "frequency": 0.1277
+    },
+    "ól": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "lạ": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "iv": {
+      "count": 72,
+      "frequency": 0.2242
+    },
+    "vô": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ôă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ăn": {
+      "count": 36,
+      "frequency": 0.1121
+    },
+    "nb": {
+      "count": 54,
+      "frequency": 0.1682
+    },
+    "bu": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "hổ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ổn": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "ìn": {
+      "count": 86,
+      "frequency": 0.2678
+    },
+    "hv": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "yc": {
+      "count": 89,
+      "frequency": 0.2772
+    },
+    "cm": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "mu": {
+      "count": 42,
+      "frequency": 0.1308
+    },
+    "uố": {
+      "count": 63,
+      "frequency": 0.1962
+    },
+    "ốn": {
+      "count": 93,
+      "frequency": 0.2896
+    },
+    "na": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "hn": {
+      "count": 41,
+      "frequency": 0.1277
+    },
+    "àn": {
+      "count": 117,
+      "frequency": 0.3644
+    },
+    "đô": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ôc": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "bả": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ảo": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ov": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "và": {
+      "count": 144,
+      "frequency": 0.4485
+    },
+    "àt": {
+      "count": 51,
+      "frequency": 0.1588
+    },
+    "tđ": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "đế": {
+      "count": 40,
+      "frequency": 0.1246
+    },
+    "ến": {
+      "count": 88,
+      "frequency": 0.2741
+    },
+    "nó": {
+      "count": 139,
+      "frequency": 0.4329
+    },
+    "ói": {
+      "count": 75,
+      "frequency": 0.2336
+    },
+    "il": {
+      "count": 89,
+      "frequency": 0.2772
+    },
+    "lầ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ần": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "nấ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ấy": {
+      "count": 125,
+      "frequency": 0.3893
+    },
+    "yv": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "vì": {
+      "count": 42,
+      "frequency": 0.1308
+    },
+    "ìđ": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "ườ": {
+      "count": 111,
+      "frequency": 0.3457
+    },
+    "ờn": {
+      "count": 35,
+      "frequency": 0.109
+    },
+    "hỉ": {
+      "count": 44,
+      "frequency": 0.137
+    },
+    "ỉđ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "iđ": {
+      "count": 159,
+      "frequency": 0.4952
+    },
+    "cu": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ối": {
+      "count": 32,
+      "frequency": 0.0997
+    },
+    "hư": {
+      "count": 153,
+      "frequency": 0.4765
+    },
+    "ưn": {
+      "count": 53,
+      "frequency": 0.1651
+    },
+    "ce": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "md": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "dá": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ám": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ml": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "àb": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ba": {
+      "count": 34,
+      "frequency": 0.1059
+    },
+    "ak": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "đa": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "bố": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ốl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "lỗ": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ỗi": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "gm": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "mớ": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "gb": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "bở": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ởi": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "lử": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ửa": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "at": {
+      "count": 92,
+      "frequency": 0.2865
+    },
+    "ta": {
+      "count": 176,
+      "frequency": 0.5481
+    },
+    "gạ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ạo": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "on": {
+      "count": 179,
+      "frequency": 0.5575
+    },
+    "hé": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "én": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "mộ": {
+      "count": 87,
+      "frequency": 0.2709
+    },
+    "ột": {
+      "count": 90,
+      "frequency": 0.2803
+    },
+    "to": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ok": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "ka": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "yt": {
+      "count": 85,
+      "frequency": 0.2647
+    },
+    "hể": {
+      "count": 62,
+      "frequency": 0.1931
+    },
+    "ển": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ón": {
+      "count": 44,
+      "frequency": 0.137
+    },
+    "ưs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ựh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "hợ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ợp": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "pc": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ảm": {
+      "count": 32,
+      "frequency": 0.0997
+    },
+    "ẹt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "àđ": {
+      "count": 53,
+      "frequency": 0.1651
+    },
+    "àv": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ìp": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hò": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ẽc": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ểđ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ãs": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "mô": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "gv": {
+      "count": 54,
+      "frequency": 0.1682
+    },
+    "vớ": {
+      "count": 65,
+      "frequency": 0.2024
+    },
+    "su": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "un": {
+      "count": 58,
+      "frequency": 0.1806
+    },
+    "nư": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ai": {
+      "count": 57,
+      "frequency": 0.1775
+    },
+    "iệ": {
+      "count": 90,
+      "frequency": 0.2803
+    },
+    "ện": {
+      "count": 79,
+      "frequency": 0.246
+    },
+    "hĩ": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "ĩt": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "hấ": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "óc": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "ho": {
+      "count": 123,
+      "frequency": 0.3831
+    },
+    "ot": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "as": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ựt": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ax": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "xo": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "oắ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ắn": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "ịb": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "bi": {
+      "count": 79,
+      "frequency": 0.246
+    },
+    "ll": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ly": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "gt": {
+      "count": 173,
+      "frequency": 0.5388
+    },
+    "uộ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ộc": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ib": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "hg": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "iớ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "gư": {
+      "count": 100,
+      "frequency": 0.3114
+    },
+    "iá": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "hh": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ey": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "yl": {
+      "count": 36,
+      "frequency": 0.1121
+    },
+    "sà": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ìv": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "vâ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ân": {
+      "count": 51,
+      "frequency": 0.1588
+    },
+    "id": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "do": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "oa": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "hc": {
+      "count": 88,
+      "frequency": 0.2741
+    },
+    "yệ": {
+      "count": 52,
+      "frequency": 0.1619
+    },
+    "nđ": {
+      "count": 124,
+      "frequency": 0.3862
+    },
+    "đú": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "bụ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ụi": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iô": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "từ": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "ừa": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "cầ": {
+      "count": 35,
+      "frequency": 0.109
+    },
+    "cù": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ùn": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "àc": {
+      "count": 74,
+      "frequency": 0.2305
+    },
+    "om": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ĩa": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ểg": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "iờ": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "để": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "đồ": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ồn": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "số": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "gr": {
+      "count": 35,
+      "frequency": 0.109
+    },
+    "co": {
+      "count": 75,
+      "frequency": 0.2336
+    },
+    "nr": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "rấ": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "ất": {
+      "count": 76,
+      "frequency": 0.2367
+    },
+    "tt": {
+      "count": 66,
+      "frequency": 0.2055
+    },
+    "ro": {
+      "count": 50,
+      "frequency": 0.1557
+    },
+    "hắ": {
+      "count": 51,
+      "frequency": 0.1588
+    },
+    "tự": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ựv": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "vẻ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẻa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "àô": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "lắ": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ắm": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "mh": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "hệ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ệt": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ấp": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "câ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ut": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "hờ": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "bữ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ữa": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "ụt": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "eo": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ac": {
+      "count": 89,
+      "frequency": 0.2772
+    },
+    "yg": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "gì": {
+      "count": 80,
+      "frequency": 0.2491
+    },
+    "im": {
+      "count": 75,
+      "frequency": 0.2336
+    },
+    "tĩ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ĩn": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "hế": {
+      "count": 94,
+      "frequency": 0.2927
+    },
+    "tk": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "ki": {
+      "count": 35,
+      "frequency": 0.109
+    },
+    "ht": {
+      "count": 73,
+      "frequency": 0.2273
+    },
+    "yô": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "hí": {
+      "count": 41,
+      "frequency": 0.1277
+    },
+    "ía": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "oh": {
+      "count": 30,
+      "frequency": 0.0934
+    },
+    "lu": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "uậ": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "tc": {
+      "count": 68,
+      "frequency": 0.2118
+    },
+    "óấ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ấm": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ổt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "tư": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ưở": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ởn": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "cũ": {
+      "count": 37,
+      "frequency": 0.1152
+    },
+    "ũn": {
+      "count": 37,
+      "frequency": 0.1152
+    },
+    "hạ": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ih": {
+      "count": 50,
+      "frequency": 0.1557
+    },
+    "ãc": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ađ": {
+      "count": 52,
+      "frequency": 0.1619
+    },
+    "đấ": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "ya": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "củ": {
+      "count": 103,
+      "frequency": 0.3208
+    },
+    "ủa": {
+      "count": 103,
+      "frequency": 0.3208
+    },
+    "cg": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "nế": {
+      "count": 38,
+      "frequency": 0.1183
+    },
+    "ếu": {
+      "count": 44,
+      "frequency": 0.137
+    },
+    "ub": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "cr": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ra": {
+      "count": 73,
+      "frequency": 0.2273
+    },
+    "go": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "nv": {
+      "count": 56,
+      "frequency": 0.1744
+    },
+    "tn": {
+      "count": 51,
+      "frequency": 0.1588
+    },
+    "ga": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "hr": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "rổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ổđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệp": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "pn": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "yn": {
+      "count": 58,
+      "frequency": 0.1806
+    },
+    "ếk": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "iể": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "ểm": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "vũ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ũq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uá": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "áb": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "uồ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "về": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "ềv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vụ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ưa": {
+      "count": 45,
+      "frequency": 0.1401
+    },
+    "đá": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "mì": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "hứ": {
+      "count": 64,
+      "frequency": 0.1993
+    },
+    "ứs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ựđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "vu": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ui": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ạn": {
+      "count": 42,
+      "frequency": 0.1308
+    },
+    "tậ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ập": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "px": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "xâ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ây": {
+      "count": 79,
+      "frequency": 0.246
+    },
+    "nữ": {
+      "count": 30,
+      "frequency": 0.0934
+    },
+    "hự": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ực": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "cv": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "vố": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểk": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "nặ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ặn": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "hx": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "xe": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "mt": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "iq": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "yr": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "rõ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "õđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cp": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "hả": {
+      "count": 114,
+      "frequency": 0.355
+    },
+    "ải": {
+      "count": 91,
+      "frequency": 0.2834
+    },
+    "rô": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ób": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "óh": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "oạ": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "ạc": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "óv": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "àí": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ít": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ưc": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ứt": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "al": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "lề": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ều": {
+      "count": 51,
+      "frequency": 0.1588
+    },
+    "gơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ơn": {
+      "count": 67,
+      "frequency": 0.2087
+    },
+    "đổ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ìh": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "tấ": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ưt": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "bị": {
+      "count": 37,
+      "frequency": 0.1152
+    },
+    "ịh": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "oà": {
+      "count": 34,
+      "frequency": 0.1059
+    },
+    "bì": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "hl": {
+      "count": 38,
+      "frequency": 0.1183
+    },
+    "ap": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "tm": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ma": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "ar": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "sá": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "át": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "ươ": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "gg": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "gá": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "iấ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "rù": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "út": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "tp": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "cố": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ốk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mừ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ấu": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "rr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ry": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "tá": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "gấ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "oá": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "mk": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "kẻ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ẻr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rằ": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ằn": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "óx": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "àm": {
+      "count": 110,
+      "frequency": 0.3426
+    },
+    "te": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "tứ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ức": {
+      "count": 25,
+      "frequency": 0.0779
+    },
+    "rê": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "tạ": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "hớ": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ớh": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ừđ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "gặ": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ặp": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "pb": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "iê": {
+      "count": 42,
+      "frequency": 0.1308
+    },
+    "àl": {
+      "count": 29,
+      "frequency": 0.0903
+    },
+    "lê": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "họ": {
+      "count": 52,
+      "frequency": 0.1619
+    },
+    "ọn": {
+      "count": 41,
+      "frequency": 0.1277
+    },
+    "nq": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "uâ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "cộ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ộn": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "cử": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "dâ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ir": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "ãt": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ik": {
+      "count": 57,
+      "frequency": 0.1775
+    },
+    "gq": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "cn": {
+      "count": 43,
+      "frequency": 0.1339
+    },
+    "vi": {
+      "count": 45,
+      "frequency": 0.1401
+    },
+    "ệc": {
+      "count": 36,
+      "frequency": 0.1121
+    },
+    "hì": {
+      "count": 56,
+      "frequency": 0.1744
+    },
+    "ưỡ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ỡn": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "gd": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "di": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "iễ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ễn": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "nm": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "mọ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ọi": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "nê": {
+      "count": 25,
+      "frequency": 0.0779
+    },
+    "mx": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "úa": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ah": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ệu": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "yề": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ền": {
+      "count": 30,
+      "frequency": 0.0934
+    },
+    "ửv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "od": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "dụ": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "tị": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ịc": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "vò": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "uấ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "yà": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "àh": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "ềc": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "độ": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ội": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "io": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hy": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "yế": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "dù": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "õt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hố": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "đị": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ưđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "đứ": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ứn": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "lã": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ão": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "kì": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ìa": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ãn": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "óg": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "gọ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "pv": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "cứ": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "ứu": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "uh": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ọh": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ếp": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "xi": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "rả": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "gầ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ầm": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "đo": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ịa": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "íc": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "ỉs": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ẽd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dí": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ín": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "ms": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "mấ": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "yq": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "áh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ór": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "bé": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "él": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ri": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "aa": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ứv": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ìl": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "àd": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "bư": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ứd": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ùt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ểc": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "ỉl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uô": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ảy": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "đề": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ọd": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "dừ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "bâ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "lù": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ùi": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "nơ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ae": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ed": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ec": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "nl": {
+      "count": 56,
+      "frequency": 0.1744
+    },
+    "lờ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "sú": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ol": {
+      "count": 25,
+      "frequency": 0.0779
+    },
+    "pt": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "av": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "ók": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "vẫ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ẫn": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "đầ": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ầu": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "ôs": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ys": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "sâ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "og": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ấc": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ck": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "am": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ìc": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "mb": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "bỏ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ỏđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ge": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "lo": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ận": {
+      "count": 32,
+      "frequency": 0.0997
+    },
+    "hỏ": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ỏi": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ũm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ợn": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "uê": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ìt": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "rá": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "tớ": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "ôx": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "xa": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ix": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "tă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ứa": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ur": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "rộ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ãk": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "lớ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ớn": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ữu": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "up": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ĩp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bà": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ảđ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ãm": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "lộ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ty": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "yấ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "mù": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "nú": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hđ": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "ớv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vấ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ấn": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "iỡ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gắ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "lự": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ựa": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "lâ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "uđ": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "ểu": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ul": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "tb": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "tv": {
+      "count": 29,
+      "frequency": 0.0903
+    },
+    "hù": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "tỉ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỉn": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "hủ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ủc": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "óe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "uệ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "âm": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "àấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "aq": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "hk": {
+      "count": 26,
+      "frequency": 0.081
+    },
+    "mơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ớt": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "kđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cb": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "đc": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cấ": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "sả": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ũk": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "kế": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "bạ": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "ip": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ụđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ềb": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ab": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ịn": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "ứb": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "né": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ép": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "rò": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "òc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ắc": {
+      "count": 27,
+      "frequency": 0.0841
+    },
+    "ớg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ìb": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "tú": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "úi": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ảt": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "tố": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ốt": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ưk": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "bơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ọc": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "ảc": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "lý": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ýl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "li": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "hm": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "mặ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ặt": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "gx": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "tâ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ữđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rì": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ếm": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "àg": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "cx": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "xí": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iú": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "úp": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "gà": {
+      "count": 31,
+      "frequency": 0.0965
+    },
+    "ảk": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "kê": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "êu": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ạt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "cd": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ùq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ag": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ứr": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ạđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ớp": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ưh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "hầ": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "nổ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ẽs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rể": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tà": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ài": {
+      "count": 39,
+      "frequency": 0.1215
+    },
+    "iữ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "nạ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ựe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gồ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "bế": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gủ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ủn": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "eb": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "be": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "en": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ỉg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ờđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ịt": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "os": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "cơ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ơk": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hề": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "àx": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ảl": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "nè": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "èt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tê": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "ềt": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "mẫ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẫu": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "cậ": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "ậu": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "yb": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ùa": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "yư": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếđ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "đạ": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "gu": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ịq": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mả": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "aô": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ốs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "uq": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "uả": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "uỷ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỷa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hs": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "ẽn": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ẽt": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ểh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "vừ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "hâ": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "ủy": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ớr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cắ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ốc": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ớx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "xả": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ôk": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ód": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "dư": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "lấ": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "òt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "bầ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cồ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nd": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "dồ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iả": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "eg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mv": {
+      "count": 23,
+      "frequency": 0.0716
+    },
+    "ỉc": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "tổ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "xé": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "éx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "xấ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "um": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ĩb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bứ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ée": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "àr": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "xà": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bậ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "pm": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "đệ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "yp": {
+      "count": 19,
+      "frequency": 0.0592
+    },
+    "gó": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "pđ": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "ãl": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "uk": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ệk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẽq": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "đì": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "aấ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "bọ": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ôđ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "lẽ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ờg": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "tl": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "às": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "hừ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ểt": {
+      "count": 16,
+      "frequency": 0.0498
+    },
+    "đê": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "êm": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "dễ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ễe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vầ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ầy": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "áu": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ếấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ãh": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ìq": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ểs": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ém": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mụ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ớm": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ru": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ẹc": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "mi": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ựb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "so": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "cl": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "hử": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ửt": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "rú": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rí": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ír": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "xẻ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻo": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "nă": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "ăm": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "mo": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "éc": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "bộ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ộm": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "kể": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ỗt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hở": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ởt": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ox": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "us": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ục": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "nắ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mr": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "lú": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "úc": {
+      "count": 28,
+      "frequency": 0.0872
+    },
+    "lb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uý": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ýt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "nx": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ìx": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ẹk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỏe": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "eh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ne": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "hb": {
+      "count": 22,
+      "frequency": 0.0685
+    },
+    "me": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ex": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẽá": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "áp": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "pq": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "rọ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ca": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "lũ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ũt": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rậ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "gự": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "cq": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "pl": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "dò": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ĩô": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gừ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "év": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ềh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mó": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "lậ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "xú": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "đố": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "mm": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "mở": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ắp": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "đe": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "bệ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hó": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ồc": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "yx": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "du": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "tg": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "dấ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ềk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẻk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ốr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "râ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẳm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểl": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "lụ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ụa": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "óq": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "xu": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "no": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "pp": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "rẻ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "àq": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ug": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "vư": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ứđ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "hd": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "or": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "má": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "cs": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ẽđ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ẹđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ás": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ìư": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ọt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "rố": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "mạ": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "mắ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "op": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "tắ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ắt": {
+      "count": 24,
+      "frequency": 0.0747
+    },
+    "ĩv": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ứg": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ye": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "só": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ểr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ôr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rắ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ứl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hặ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "óm": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "óa": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ră": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "és": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sắ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "iă": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "da": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ứk": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ạy": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "hộ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "et": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "tả": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "pd": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "dự": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "tí": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "tx": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "np": {
+      "count": 17,
+      "frequency": 0.0529
+    },
+    "èđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ểx": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "sử": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ửc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ùc": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ĩc": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "gẫ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "uư": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sẵ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẵn": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ùx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mã": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ãi": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ỷt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ìd": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẽơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỉb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gâ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "tệ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "vự": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vợ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỏn": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẻc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ạp": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "uỗ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếx": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bẩ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẩn": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "bê": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "eđ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "tủ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "yể": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "rà": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "bắ": {
+      "count": 20,
+      "frequency": 0.0623
+    },
+    "ờl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ờm": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "aổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bấ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ềđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "cự": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ởđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ếc": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ếh": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "èấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đù": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "hă": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ẽb": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ịm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dị": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ốđ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "mậ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "pa": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "àa": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "èp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôm": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ảs": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ạk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lá": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ộđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "cà": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẽe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẽa": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hằ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ôa": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "dõ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "õi": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "sợ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ợm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lỏ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hồ": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ìs": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ná": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểa": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ểv": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "bí": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "íđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ãđ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ãg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "lẫ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "pg": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "dà": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "sứ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "rở": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "ởl": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "áđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "kỹ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỹk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỏt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ếv": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "oy": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "yo": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ou": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "tó": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "êa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sư": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "yd": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ợi": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "cẩ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "cổ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ổp": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ừp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "úr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lả": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "óơ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỉx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ãv": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ko": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "uẩ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "đợ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "nỗ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ià": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "àu": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "nề": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỗđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ởm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sế": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "tầ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ẽh": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "èv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lư": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "đả": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ợu": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ịô": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "că": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ụb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mp": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ỏv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "nô": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "òm": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỉt": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ũv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ởv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lí": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ím": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "pô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "íl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "íb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "la": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "đờ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "cặ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẹb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ũx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ạm": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ùđ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gã": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "kỳ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ỳt": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ữl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẽl": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "uv": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "èc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ọk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "kỷ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỷn": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ớl": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "mỹ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỹl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỗh": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mờ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ọs": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "uỵ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỵt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ứp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỳy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỳc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vở": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lệ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ộx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vọ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "éq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ýc": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ờc": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "xử": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ửl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "lố": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỉm": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ơt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ét": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ỗs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ưu": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rừ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ừb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "pe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "es": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "vă": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ốm": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ìr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "óy": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "iọ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "đu": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ìg": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ểe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệm": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "àp": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ôo": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "iậ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "lơ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "aả": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "áy": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ág": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "rử": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ởk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ue": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ảb": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ưl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "re": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nả": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "el": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ừk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỉấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ứq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ịk": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "àe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ãp": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "tặ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ứm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ửđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iỏ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ứô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ừl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ớđ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "đé": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "oă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vị": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ịs": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "mg": {
+      "count": 11,
+      "frequency": 0.0343
+    },
+    "tế": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "iổ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "õs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "si": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ộv": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ịv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ọr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ál": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ếl": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "lễ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ễl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "sm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đặ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ặc": {
+      "count": 13,
+      "frequency": 0.0405
+    },
+    "ạl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẹl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vờ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đẩ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ẩy": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "mỗ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ỗn": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tù": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ùm": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỉa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ịd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dĩ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩs": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "lợ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "kĩ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỗg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bè": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "èl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ụx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "éd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mq": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "õg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tơ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ờd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dố": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "đủ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ủe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dặ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ặm": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẽv": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ỏc": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ôb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ôv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "vĩ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sụ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ụp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ạấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ảv": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ủh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "óô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ny": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ợt": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "oẻ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ló": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hẫ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "bó": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "hẩ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "gố": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "áv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "va": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đè": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "èn": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ró": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mẽ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẽx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ũc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếs": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "gớ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ớk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bò": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "òk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iơ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ỉv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đỡ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỡb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "iy": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hq": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ýn": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẹm": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gõ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "õk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "oi": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "hp": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẹs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ồx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uầ": {
+      "count": 7,
+      "frequency": 0.0218
+    },
+    "ểp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ổc": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "òa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỏl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ss": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hè": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tộ": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "ệe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "èk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đà": {
+      "count": 8,
+      "frequency": 0.0249
+    },
+    "gụ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ùk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nử": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mệ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ứh": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "xứ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "vắ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đọ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "bằ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ee": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "éđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dẫ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ờv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ềl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ừs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ựq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ửn": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rị": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nộ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ảx": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "xă": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "oe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "aà": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ps": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẽp": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ộk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gy": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ừx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lò": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểb": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ểâ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sơ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ơg": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "nằ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ằm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ồl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lừ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "uu": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ií": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iố": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "úg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "oấ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ừm": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "hê": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "êđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ởc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ùv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẻd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "òh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sạ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "gổ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gí": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "xế": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rụ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "tử": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ửk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẩm": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ứe": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "lô": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ờq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "úv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "àé": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ồg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẽm": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ẽr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ịu": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "oâ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềg": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ừh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ảr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "pấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bồ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ồổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ửb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ẻn": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỳx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ễm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uí": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỹt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "úđ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "nợ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ựu": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ễc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vệ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "oq": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ỏy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rè": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỹr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôg": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "rợ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đĩ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rk": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "kb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bớ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "yy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ọq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "oả": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ửs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ợđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vữ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "êt": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ữc": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gả": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "đậ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "óă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vứ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ọđ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "dứ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "aă": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỉh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "úy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bo": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ưb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "éh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đằ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "oặ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẩu": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ảa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ộd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỷq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ợs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dì": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "yả": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "pr": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ịl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ôp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bự": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ơc": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "td": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "rt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "km": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bù": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ựơ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rạ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ốa": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ud": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ùy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "kn": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "õa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ốq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỉk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ốb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ád": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủl": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "mợ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ợk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bã": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ộp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tể": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "gộ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ồs": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "gé": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "kẹ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ựl": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "áe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "êb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỹp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểq": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "ủb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "bờ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ờá": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tồ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ờa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rớ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "cụ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "đỏ": {
+      "count": 3,
+      "frequency": 0.0093
+    },
+    "iẩ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "sh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ùb": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "vế": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "kí": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ọa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ừấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lị": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ỳl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ék": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỗô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ôy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "yi": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ưâ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ễg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dọ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "íg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "êl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "oô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ốv": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "ùl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "hẹ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nố": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủk": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "my": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vỡ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỡm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềp": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nụ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ụv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "tụ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ỷh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bc": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dữ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ữv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "pừ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ốx": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ịp": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "pổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ev": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "dậ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rứ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đụ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "òđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ưg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ờs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ýđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ủđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ãd": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ếq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ùấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ảg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ựk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "àừ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "bẻ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ơđ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "vé": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ũr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ềr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ểô": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rơ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ờr": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "uà": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẹa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "iâ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ọm": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ịg": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ừt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ọv": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ớấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩl": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nã": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "cở": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "lọ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ãq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "aơ": {
+      "count": 2,
+      "frequency": 0.0062
+    },
+    "àổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ữb": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ữt": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "mổ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ổs": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "đí": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ẻq": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "cạ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ởh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ệấ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ĩe": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ík": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "rễ": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ễk": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ìy": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "óá": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ơa": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "nự": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ũh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ýh": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "cú": {
+      "count": 1,
+      "frequency": 0.0031
+    },
+    "ịă": {
+      "count": 1,
+      "frequency": 0.0031
+    }
+  }
+}

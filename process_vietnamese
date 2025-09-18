@@ -1,0 +1,33 @@
+#!/bin/bash
+# Process Vietnamese language data for TypeTelex
+# Regenerates corpus, frequency analysis, and TypeScript maps
+
+set -e  # Exit on any error
+
+echo "🇻🇳 Processing Vietnamese Language Data for TypeTelex"
+echo "=================================================="
+
+echo "📚 Step 1: Generating 10k Vietnamese word corpus..."
+python3 text_processing/generate_vietnamese_10k.py
+
+echo ""
+echo "📊 Step 2: Analyzing character frequencies..."
+python3 text_processing/analyze_frequencies.py
+
+echo ""
+echo "🛠️  Step 3: Generating TypeScript character frequency map..."
+python3 text_processing/generate_char_freq_map.py
+
+echo ""
+echo "🔗 Step 4: Generating TypeScript transition probability map..."
+python3 text_processing/generate_bigram_map.py
+
+echo ""
+echo "✅ Vietnamese language processing complete!"
+echo "📁 Generated files:"
+echo "   - text_processing/vietnamese_10k_words.txt"
+echo "   - text_processing/vietnamese_character_frequencies.json"
+echo "   - text_processing/vietnamese_bigram_frequencies.json" 
+echo "   - text_processing/vietnamese_trigram_frequencies.json"
+echo "   - src/app/utils/vietnameseCharacterFrequencies.ts"
+echo "   - src/app/utils/vietnameseTransitions.ts"

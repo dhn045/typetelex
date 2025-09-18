@@ -1,0 +1,362 @@
+{
+  "description": "Vietnamese character frequencies from 10k word corpus",
+  "total_items": 89,
+  "data": {
+    "v": {
+      "count": 495,
+      "frequency": 1.5415
+    },
+    "ậ": {
+      "count": 192,
+      "frequency": 0.5979
+    },
+    "y": {
+      "count": 653,
+      "frequency": 2.0336
+    },
+    "đ": {
+      "count": 1051,
+      "frequency": 3.273
+    },
+    "ẹ": {
+      "count": 30,
+      "frequency": 0.0934
+    },
+    "p": {
+      "count": 293,
+      "frequency": 0.9125
+    },
+    "k": {
+      "count": 508,
+      "frequency": 1.582
+    },
+    "h": {
+      "count": 2944,
+      "frequency": 9.1682
+    },
+    "u": {
+      "count": 744,
+      "frequency": 2.317
+    },
+    "ê": {
+      "count": 176,
+      "frequency": 0.5481
+    },
+    "n": {
+      "count": 3696,
+      "frequency": 11.5101
+    },
+    "c": {
+      "count": 2092,
+      "frequency": 6.5149
+    },
+    "ú": {
+      "count": 221,
+      "frequency": 0.6882
+    },
+    "g": {
+      "count": 1823,
+      "frequency": 5.6772
+    },
+    "ó": {
+      "count": 448,
+      "frequency": 1.3952
+    },
+    "t": {
+      "count": 2083,
+      "frequency": 6.4869
+    },
+    "r": {
+      "count": 453,
+      "frequency": 1.4107
+    },
+    "ờ": {
+      "count": 174,
+      "frequency": 0.5419
+    },
+    "i": {
+      "count": 2072,
+      "frequency": 6.4526
+    },
+    "ô": {
+      "count": 827,
+      "frequency": 2.5754
+    },
+    "ả": {
+      "count": 264,
+      "frequency": 0.8221
+    },
+    "ã": {
+      "count": 138,
+      "frequency": 0.4298
+    },
+    "m": {
+      "count": 771,
+      "frequency": 2.401
+    },
+    "ế": {
+      "count": 350,
+      "frequency": 1.09
+    },
+    "q": {
+      "count": 102,
+      "frequency": 0.3176
+    },
+    "a": {
+      "count": 1129,
+      "frequency": 3.5159
+    },
+    "s": {
+      "count": 334,
+      "frequency": 1.0401
+    },
+    "ẽ": {
+      "count": 94,
+      "frequency": 0.2927
+    },
+    "ư": {
+      "count": 501,
+      "frequency": 1.5602
+    },
+    "ớ": {
+      "count": 210,
+      "frequency": 0.654
+    },
+    "ò": {
+      "count": 52,
+      "frequency": 0.1619
+    },
+    "e": {
+      "count": 168,
+      "frequency": 0.5232
+    },
+    "ồ": {
+      "count": 130,
+      "frequency": 0.4048
+    },
+    "ĩ": {
+      "count": 55,
+      "frequency": 0.1713
+    },
+    "à": {
+      "count": 821,
+      "frequency": 2.5568
+    },
+    "b": {
+      "count": 429,
+      "frequency": 1.336
+    },
+    "á": {
+      "count": 348,
+      "frequency": 1.0837
+    },
+    "o": {
+      "count": 642,
+      "frequency": 1.9993
+    },
+    "â": {
+      "count": 190,
+      "frequency": 0.5917
+    },
+    "x": {
+      "count": 124,
+      "frequency": 0.3862
+    },
+    "ẳ": {
+      "count": 18,
+      "frequency": 0.0561
+    },
+    "l": {
+      "count": 615,
+      "frequency": 1.9152
+    },
+    "é": {
+      "count": 46,
+      "frequency": 0.1433
+    },
+    "ừ": {
+      "count": 70,
+      "frequency": 0.218
+    },
+    "ự": {
+      "count": 74,
+      "frequency": 0.2305
+    },
+    "ổ": {
+      "count": 62,
+      "frequency": 0.1931
+    },
+    "ì": {
+      "count": 253,
+      "frequency": 0.7879
+    },
+    "ỗ": {
+      "count": 33,
+      "frequency": 0.1028
+    },
+    "d": {
+      "count": 132,
+      "frequency": 0.4111
+    },
+    "ạ": {
+      "count": 201,
+      "frequency": 0.626
+    },
+    "ơ": {
+      "count": 135,
+      "frequency": 0.4204
+    },
+    "ử": {
+      "count": 32,
+      "frequency": 0.0997
+    },
+    "ữ": {
+      "count": 92,
+      "frequency": 0.2865
+    },
+    "ụ": {
+      "count": 47,
+      "frequency": 0.1464
+    },
+    "ợ": {
+      "count": 168,
+      "frequency": 0.5232
+    },
+    "ị": {
+      "count": 103,
+      "frequency": 0.3208
+    },
+    "ề": {
+      "count": 125,
+      "frequency": 0.3893
+    },
+    "ă": {
+      "count": 45,
+      "frequency": 0.1401
+    },
+    "ố": {
+      "count": 181,
+      "frequency": 0.5637
+    },
+    "ầ": {
+      "count": 109,
+      "frequency": 0.3394
+    },
+    "ấ": {
+      "count": 253,
+      "frequency": 0.7879
+    },
+    "ỉ": {
+      "count": 45,
+      "frequency": 0.1401
+    },
+    "ở": {
+      "count": 44,
+      "frequency": 0.137
+    },
+    "ộ": {
+      "count": 151,
+      "frequency": 0.4702
+    },
+    "ể": {
+      "count": 147,
+      "frequency": 0.4578
+    },
+    "ệ": {
+      "count": 171,
+      "frequency": 0.5325
+    },
+    "ắ": {
+      "count": 124,
+      "frequency": 0.3862
+    },
+    "ù": {
+      "count": 58,
+      "frequency": 0.1806
+    },
+    "ẻ": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "í": {
+      "count": 74,
+      "frequency": 0.2305
+    },
+    "ũ": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "ủ": {
+      "count": 130,
+      "frequency": 0.4048
+    },
+    "ứ": {
+      "count": 128,
+      "frequency": 0.3986
+    },
+    "ặ": {
+      "count": 49,
+      "frequency": 0.1526
+    },
+    "õ": {
+      "count": 10,
+      "frequency": 0.0311
+    },
+    "ằ": {
+      "count": 32,
+      "frequency": 0.0997
+    },
+    "ọ": {
+      "count": 113,
+      "frequency": 0.3519
+    },
+    "ỡ": {
+      "count": 9,
+      "frequency": 0.028
+    },
+    "ễ": {
+      "count": 12,
+      "frequency": 0.0374
+    },
+    "ẫ": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ỏ": {
+      "count": 37,
+      "frequency": 0.1152
+    },
+    "ý": {
+      "count": 14,
+      "frequency": 0.0436
+    },
+    "è": {
+      "count": 15,
+      "frequency": 0.0467
+    },
+    "ỷ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ẵ": {
+      "count": 4,
+      "frequency": 0.0125
+    },
+    "ẩ": {
+      "count": 21,
+      "frequency": 0.0654
+    },
+    "ỹ": {
+      "count": 5,
+      "frequency": 0.0156
+    },
+    "ỳ": {
+      "count": 6,
+      "frequency": 0.0187
+    },
+    "ỵ": {
+      "count": 1,
+      "frequency": 0.0031
+    }
+  }
+}

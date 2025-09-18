@@ -50,6 +50,12 @@ Uses hooks (both built-in and custom) as the primary state management solution:
 - Visual feedback for typed vs untyped characters
 - Cursor position tracking across both lines
 
+#### Vietnamese Language Processing
+- **Character Frequencies** (`vietnameseCharacterFrequencies.ts`) - Statistical frequency of individual Vietnamese characters
+- **Transition Probabilities** (`vietnameseTransitions.ts`) - Character-to-character transition probabilities for realistic text patterns
+- **Corpus-based Analysis** - Generated from 10,000 Vietnamese words with frequency-weighted sampling
+- **Telex Integration** - Seamless integration with Vietnamese telex input system
+
 ### Build Configuration
 
 #### Vite Configuration
@@ -79,17 +85,33 @@ Uses hooks (both built-in and custom) as the primary state management solution:
 src/
 ├── app/                    # Main application code
 │   ├── components/         # App-specific components
+│   │   ├── InfoDisplay.tsx     # Information and statistics display
 │   │   ├── LetterDisplay.tsx   # Individual letter rendering
+│   │   ├── TextDisplay.tsx     # Text content display component
 │   │   └── TypingInterface.tsx # Main typing UI component
 │   ├── hooks/             # App-specific custom hooks
+│   │   ├── useMetrics.ts      # Typing metrics and statistics
 │   │   └── useTelex.ts        # Telex input processing hook
-│   ├── utils/
-│   │   └── telex.tsx         # Vietnamese Telex input mappings
+│   ├── utils/             # App utilities and data
+│   │   ├── telex.tsx                          # Vietnamese Telex input mappings
+│   │   ├── vietnameseCharacterFrequencies.ts  # Single character frequency data
+│   │   └── vietnameseTransitions.ts           # Character transition probabilities
 │   ├── App.tsx              # Root app component
 │   └── App.css              # App-specific styles
 ├── main.tsx                # React app entry point
 ├── index.css               # Global styles
 └── vite-env.d.ts           # Vite type definitions
+
+text_processing/            # Vietnamese corpus processing (development only)
+├── vietnamese_sample.txt                  # Source Vietnamese word frequency data
+├── vietnamese_10k_words.txt              # Generated 10k word corpus
+├── vietnamese_character_frequencies.json # Character frequency analysis
+├── vietnamese_bigram_frequencies.json    # Bigram frequency analysis  
+├── vietnamese_trigram_frequencies.json   # Trigram frequency analysis
+├── analyze_frequencies.py                # Script to analyze character patterns
+├── generate_vietnamese_10k.py            # Script to generate corpus
+├── generate_char_freq_map.py             # Script to generate TS character frequencies
+└── generate_bigram_map.py                # Script to generate TS transition maps
 ```
 
 ### Future Expansion
@@ -149,3 +171,38 @@ When modifying the Telex system:
 - Strict mode enabled with comprehensive linting
 - Interface definitions for all component props
 - Proper typing for event handlers and state variables
+
+## Vietnamese Text Processing
+
+### Data Generation Workflow
+The `text_processing/` directory contains scripts for generating Vietnamese language statistics:
+
+1. **Source Data**: `vietnamese_sample.txt` - Frequency-ranked Vietnamese words
+2. **Corpus Generation**: `generate_vietnamese_10k.py` - Creates 10k word corpus with weighted sampling
+3. **Frequency Analysis**: `analyze_frequencies.py` - Generates character, bigram, and trigram frequencies
+4. **TypeScript Generation**:
+   - `generate_char_freq_map.py` - Creates `vietnameseCharacterFrequencies.ts`
+   - `generate_bigram_map.py` - Creates `vietnameseTransitions.ts`
+
+### Usage in Application
+- **Character frequencies** for progressive difficulty and scoring weights
+- **Transition probabilities** for text prediction and natural typing flow
+- **Statistical accuracy** based on authentic Vietnamese language patterns
+- **Performance optimized** with TypeScript Maps for O(1) lookups
+
+### Processing Workflow
+The `process_vietnamese` script automates the complete data pipeline:
+1. **Corpus Generation**: Creates 10k-word corpus from frequency data (filters out f, j, w, z)
+2. **Frequency Analysis**: Generates character, bigram, and trigram frequency JSON files
+3. **TypeScript Generation**: Creates optimized Map structures for runtime use
+
+### Regenerating Data
+To update Vietnamese language statistics, use the automated script:
+```
+bash ./process_vietnamese
+```
+
+Or run individual steps:
+```
+python3 text_processing/generate_vietnamese_10k.py && python3 text_processing/analyze_frequencies.py && python3 text_processing/generate_char_freq_map.py && python3 text_processing/generate_bigram_map.py
+```
