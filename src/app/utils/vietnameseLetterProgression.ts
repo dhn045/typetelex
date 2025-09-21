@@ -6,7 +6,7 @@
  * Includes base letters first, then letters with diacritics grouped by input method
  */
 
-export const letterProgression = [
+export const LETTER_PROGRESSION = [
   [
     // Level 1: Foundation Letters
     'n', 'h', 'a',

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
 import TextDisplay, { TextDisplayUseCase } from "./TextDisplay";
 import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
@@ -6,7 +6,7 @@ import InfoDisplay from './InfoDisplay';
 import { useMetrics } from '../hooks/useMetrics';
 import { useTextGenerator } from '../hooks/useTextGenerator';
 import { ProgressionDisplay } from './ProgressionDisplay';
-import { letterProgression } from '../utils/vietnameseLetterProgression';
+import { LETTER_PROGRESSION } from '../utils/vietnameseLetterProgression';
 
 export const LetterStatus = {
     Correct: 'correct',
@@ -17,7 +17,7 @@ export const LetterStatus = {
 
 export type LetterStatus = typeof LetterStatus[keyof typeof LetterStatus];
 
-const flatProgression = letterProgression.flat();
+const flatProgression = LETTER_PROGRESSION.flat();
 
 const TypingInterface: React.FC = () => {
 
@@ -25,17 +25,25 @@ const TypingInterface: React.FC = () => {
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
     const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
-    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(2);
-    const availableCharacters = React.useMemo(() => {
-        console.log('Recalculating available characters');
+    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(21);
+    const availableCharacters = useMemo(() => {
         return new Set(' ' + flatProgression.slice(0, currentProgressionIndex + 1));
     }, [currentProgressionIndex]);
-    const { generatedText, generateText } = useTextGenerator({availableCharacters, maxLength: 60});
 
-    // Regenerate text when progression advances to use newly available characters
+    // Get the most recently added character for focused practice
+    const targetCharacter = useMemo(() => {
+        return currentProgressionIndex > 0 ? flatProgression[currentProgressionIndex] : undefined;
+    }, [currentProgressionIndex]);
+
+    const { generatedText, generateText } = useTextGenerator({
+        availableCharacters,
+        maxLength: 60,
+        targetCharacter
+    });
+
     useEffect(() => {
         generateText();
-    }, [currentProgressionIndex]);
+    }, [generateText]);
 
     // React to letter changes and update cursor position
     useEffect(() => {
@@ -87,7 +95,7 @@ const TypingInterface: React.FC = () => {
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, []);
+    }, [generateText]);
 
     return (
         <div>
