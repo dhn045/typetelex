@@ -10,16 +10,28 @@ export const TextDisplayUseCase = {
 export type TextDisplayUseCase = typeof TextDisplayUseCase[keyof typeof TextDisplayUseCase];
 
 interface TextDisplayProps {
-    useCase: TextDisplayUseCase
+    useCase: TextDisplayUseCase;
     text: string;
-    showCursor: boolean
+    showCursor: boolean;
+    showHighlight: boolean;
+    highlightPosition?: number;
     cursorPosition: number;
     currentLetter: string;
     latestLetterStatus: LetterStatus;
     numberOfLines: number;
 }
 
-const TextDisplay: React.FC<TextDisplayProps> = ({ useCase, text, showCursor, cursorPosition, currentLetter, latestLetterStatus, numberOfLines}) => {
+const TextDisplay: React.FC<TextDisplayProps> = ({
+    useCase,
+    text,
+    showCursor,
+    showHighlight,
+    cursorPosition,
+    highlightPosition = -1,
+    currentLetter,
+    latestLetterStatus,
+    numberOfLines
+}) => {
 
     const splitTextIntoLines = (numLines: number) => {
         const lines: string[] = [];
@@ -58,6 +70,7 @@ const TextDisplay: React.FC<TextDisplayProps> = ({ useCase, text, showCursor, cu
                                     letter={letter}
                                     showCursor={showCursor && globalIndex === cursorPosition}
                                     status={getLetterStatus(globalIndex)}
+                                    showHighlight={showHighlight && letterIndex < highlightPosition}
                                 />
                             );
                         })}

@@ -25,23 +25,16 @@ export const useTextGenerator = ({
       }
     }
     return targetCharacter ? hasTargetCharacter : true;
-  }, [availableCharacters]);
+  }, [availableCharacters, targetCharacter]);
 
   const generateText = useCallback((targetLength: number = maxLength): string => {
 
     const validWords = VIETNAMESE_WORDS.filter((word: string) => isWordValid(word));
 
-    // if (validWords.length === 0) return '';
-
-    // // log first 5 words
-    // if (targetCharacter) {
-    //   const filteredWords = validWords.filter(word => word.includes(targetCharacter));
-    //   if (filteredWords.length > 0) {
-    //     console.log('Sample words with target character:', filteredWords.slice(0, 5));
-    //   } else {
-    //     console.log(`No words found containing the target character "${targetCharacter}".`);
-    //   }
-    // }
+    if (validWords.length === 0) {
+      console.warn('No valid words found for current character set');
+      return '';
+    }
 
     let text = '';
     while (text.length < targetLength) {
@@ -55,14 +48,14 @@ export const useTextGenerator = ({
     }
 
     return text.trimEnd();
-  }, [maxLength, targetCharacter, availableCharacters]);
+  }, [maxLength, isWordValid]);
 
   // Generate new text and update state
   const generateAndSetText = useCallback((targetLength?: number) => {
     const newText = generateText(targetLength);
     setGeneratedText(newText);
     return newText;
-  }, [generateText, availableCharacters, targetCharacter]);
+  }, [generateText]);
 
   return {
     generatedText,

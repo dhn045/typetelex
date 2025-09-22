@@ -3,25 +3,36 @@ import { LETTER_PROGRESSION } from '../utils/vietnameseLetterProgression';
 import { LetterStatus } from './TypingInterface';
 import TextDisplay, { TextDisplayUseCase } from './TextDisplay';
 
-export const ProgressionDisplay: React.FC = () => {
+interface ProgressionDisplayProps {
+  highlightPosition: number;
+}
 
-    return (
-        <div className="progression-display">
-          {
-            /// use textDisplay
-            LETTER_PROGRESSION.map((group, groupIndex) => (
-              <TextDisplay
-                useCase={TextDisplayUseCase.ProgressionDisplay}
-                key={groupIndex}
-                text={Array.isArray(group) ? group.join('') : group}
-                showCursor={false}
-                cursorPosition={0}
-                currentLetter=""
-                latestLetterStatus={LetterStatus.Untyped}
-                numberOfLines={1}
-              />
-            ))
-          }
-        </div>
-    );
+export const ProgressionDisplay: React.FC<ProgressionDisplayProps> = ({ highlightPosition }) => {
+
+  let globalIndex = 0;
+
+  return (
+      <div className="progression-display">
+        {
+          LETTER_PROGRESSION.map((group, groupIndex) => {
+            const groupStartIndex = globalIndex;
+            globalIndex += group.length;
+            const localHighlightIndex = highlightPosition - groupStartIndex;
+
+            return <TextDisplay
+              useCase={TextDisplayUseCase.ProgressionDisplay}
+              key={groupIndex}
+              text={Array.isArray(group) ? group.join('') : group}
+              showCursor={false}
+              showHighlight={true}
+              cursorPosition={0}
+              highlightPosition={localHighlightIndex}
+              currentLetter=""
+              latestLetterStatus={LetterStatus.Untyped}
+              numberOfLines={1}
+            />;
+          })
+        }
+      </div>
+  );
 }

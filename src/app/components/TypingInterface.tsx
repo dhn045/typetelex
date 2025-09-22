@@ -104,12 +104,14 @@ const TypingInterface: React.FC = () => {
                 useCase={TextDisplayUseCase.MainDisplay}
                 text={generatedText}
                 showCursor={true}
+                showHighlight={false}
                 cursorPosition={cursorPosition}
+                highlightPosition={-1}
                 currentLetter={currentLetter}
                 latestLetterStatus={latestLetterStatus}
                 numberOfLines={2}
             />
-            <ProgressionDisplay />
+            <ProgressionDisplay highlightPosition={currentProgressionIndex} />
         </div>
     );
 };

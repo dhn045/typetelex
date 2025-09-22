@@ -88,6 +88,11 @@
   min-width: 1rem;
 }
 
+.progression-display .letter.highlight {
+  min-width: 1rem;
+  background-color: green;
+}
+
 /* Info Display Styles */
 .info-display {
   display: flex;
