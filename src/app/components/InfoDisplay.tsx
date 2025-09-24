@@ -1,15 +1,19 @@
+import SequenceDisplay from './SequenceDisplay';
+
 interface InfoDisplayProps {
     currentChar: string;
     wpm: number;
     accuracy: number; // Accuracy as a percentage (0-100)
+    targetChar?: string;
 }
 
-const InfoDisplay: React.FC<InfoDisplayProps> = ({ currentChar, wpm, accuracy }) => {
+const InfoDisplay: React.FC<InfoDisplayProps> = ({ currentChar, wpm, accuracy, targetChar }) => {
   return (
     <div className="info-display">
       <div className="current-char">
         {currentChar || '-'}
       </div>
+      <SequenceDisplay targetChar={targetChar} />
       <div className="metrics">
         <div className="accuracy">
           {accuracy.toFixed(1)}%

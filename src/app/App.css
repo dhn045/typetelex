@@ -35,6 +35,7 @@
   text-align: center;
   transition: background-color 0.2s ease;
   color: rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid transparent;
 }
 
 .letter:hover {
@@ -112,11 +113,12 @@
   font-size: 2rem;
   font-weight: bold;
   color: white;
-  min-width: 4rem;
+  width: 4rem;
   height: 4rem;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.05);
   font-family: 'Courier New', monospace;
+  flex-shrink: 0;
 }
 
 .metrics {
@@ -134,4 +136,33 @@
 
 .wpm {
   font-size: 3rem;
+}
+
+/* Sequence Display Styles */
+.sequence-display {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sequence-char {
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: white;
+}
+
+.sequence-separator {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sequence-result {
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: white;
 }
