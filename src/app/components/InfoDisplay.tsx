@@ -1,6 +1,3 @@
-import { ProgressionDisplay } from "./ProgressionDisplay";
-
-
 interface InfoDisplayProps {
     currentChar: string;
     wpm: number;

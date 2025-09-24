@@ -66,6 +66,74 @@ export const TELEX_MAP: Record<string, string> = {
   'uws': 'ứ', 'uwf': 'ừ', 'uwr': 'ử', 'uwx': 'ữ', 'uwj': 'ự',
 };
 
+export const REVERSE_TELEX_MAP: Record<string, string> = {
+  // Circumflex (hat) - double vowels
+  'â': 'aa',
+  'ê': 'ee',
+  'ô': 'oo',
+
+  // Breve - w suffix
+  'ă': 'aw',
+  'ơ': 'ow',
+  'ư': 'uw',
+
+  // Stroke - double d
+  'đ': 'dd',
+
+  // Acute tone (rising) - s suffix
+  'á': 'as',
+  'é': 'es',
+  'í': 'is',
+  'ó': 'os',
+  'ú': 'us',
+  'ý': 'ys',
+
+  // Grave tone (falling) - f suffix
+  'à': 'af',
+  'è': 'ef',
+  'ì': 'if',
+  'ò': 'of',
+  'ù': 'uf',
+  'ỳ': 'yf',
+
+  // Hook tone (question) - r suffix
+  'ả': 'ar',
+  'ẻ': 'er',
+  'ỉ': 'ir',
+  'ỏ': 'or',
+  'ủ': 'ur',
+  'ỷ': 'yr',
+
+  // Tilde tone (wavy) - x suffix
+  'ã': 'ax',
+  'ẽ': 'ex',
+  'ĩ': 'ix',
+  'õ': 'ox',
+  'ũ': 'ux',
+  'ỹ': 'yx',
+
+  // Dot below tone (heavy) - j suffix
+  'ạ': 'aj',
+  'ẹ': 'ej',
+  'ị': 'ij',
+  'ọ': 'oj',
+  'ụ': 'uj',
+  'ỵ': 'yj',
+
+  // Combined diacritics + tones
+  // Circumflex + tones
+  'ấ': 'aas', 'ầ': 'aaf', 'ẩ': 'aar', 'ẫ': 'aax', 'ậ': 'aaj',
+  'ế': 'ees', 'ề': 'eef', 'ể': 'eer', 'ễ': 'eex', 'ệ': 'eej',
+  'ố': 'oos', 'ồ': 'oof', 'ổ': 'oor', 'ỗ': 'oox', 'ộ': 'ooj',
+
+  // Breve + tones
+  'ắ': 'aws', 'ằ': 'awf', 'ẳ': 'awr', 'ẵ': 'awx', 'ặ': 'awj',
+
+  // Horn + tones
+  'ớ': 'ows', 'ờ': 'owf', 'ở': 'owr', 'ỡ': 'owx', 'ợ': 'owj',
+  'ứ': 'uws', 'ừ': 'uwf', 'ử': 'uwr', 'ữ': 'uwx', 'ự': 'uwj',
+};
+
 export const TELEX_INTERMEDIATE_FORMS: Record<string, string[]> = {
   // Basic diacritics (single transformation)
   'â': ['a'],           // aa → â

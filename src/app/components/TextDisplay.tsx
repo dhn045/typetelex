@@ -2,80 +2,69 @@ import React from 'react';
 import LetterDisplay from './LetterDisplay';
 import { LetterStatus } from './TypingInterface';
 
-export const TextDisplayUseCase = {
-    MainDisplay: 'main-text-display',
-    ProgressionDisplay: 'progression-text-display',
-} as const;
-
-export type TextDisplayUseCase = typeof TextDisplayUseCase[keyof typeof TextDisplayUseCase];
-
 interface TextDisplayProps {
-    useCase: TextDisplayUseCase;
     text: string;
     showCursor: boolean;
-    showHighlight: boolean;
-    highlightPosition?: number;
     cursorPosition: number;
-    currentLetter: string;
-    latestLetterStatus: LetterStatus;
-    numberOfLines: number;
+    letterInProgress: string;
+    letterInProgressStatus: LetterStatus;
 }
 
 const TextDisplay: React.FC<TextDisplayProps> = ({
-    useCase,
     text,
     showCursor,
-    showHighlight,
     cursorPosition,
-    highlightPosition = -1,
-    currentLetter,
-    latestLetterStatus,
-    numberOfLines
+    letterInProgress,
+    letterInProgressStatus
 }) => {
-
-    const splitTextIntoLines = (numLines: number) => {
-        const lines: string[] = [];
-        const lineLength = Math.ceil(text.length / numLines);
-        for (let i = 0; i < numLines; i++) {
-            lines.push(text.slice(i * lineLength, (i + 1) * lineLength));
-        }
-        return lines;
-    };
 
     const getLetterStatus = (globalIndex: number): LetterStatus => {
         if (globalIndex < cursorPosition) {
             return LetterStatus.Correct;
-        } else if (globalIndex === cursorPosition && currentLetter && text[globalIndex] !== currentLetter) {
-            // Maybe incorrect or partially correct
-            return latestLetterStatus;
+        } else if (globalIndex === cursorPosition && letterInProgress && text[globalIndex] !== letterInProgress) {
+            return letterInProgressStatus;
         } else {
             return LetterStatus.Untyped;
         }
     };
 
-    const lines = splitTextIntoLines(numberOfLines);
+    // Split text into words and render them, letting CSS handle the wrapping
+    const words = text.split(' ');
+    let globalIndex = 0;
 
     return (
-        <div className={`text-display ${useCase}`}>
-            {lines.map((line, lineIndex) => {
-                // Calculate the starting global index for this line
-                const lineStartIndex = lines.slice(0, lineIndex).reduce((sum, prevLine) => sum + prevLine.length, 0);
-                return (
-                    <div key={`line-${lineIndex}`} className="text-line">
-                        {line.split('').map((letter, letterIndex) => {
-                            const globalIndex = lineStartIndex + letterIndex;
+        <div className="text-display">
+            {words.map((word, wordIndex) => {
+                const wordStartIndex = globalIndex;
+                const wordElement = (
+                    <span key={`word-${wordIndex}`} className="word">
+                        {word.split('').map((letter, letterIndex) => {
+                            const letterGlobalIndex = wordStartIndex + letterIndex;
                             return (
                                 <LetterDisplay
-                                    key={`line${lineIndex + 1}-${letterIndex}`}
+                                    key={`${wordIndex}-${letterIndex}`}
                                     letter={letter}
-                                    showCursor={showCursor && globalIndex === cursorPosition}
-                                    status={getLetterStatus(globalIndex)}
-                                    showHighlight={showHighlight && letterIndex < highlightPosition}
+                                    showCursor={showCursor && letterGlobalIndex === cursorPosition}
+                                    status={getLetterStatus(letterGlobalIndex)}
                                 />
                             );
                         })}
-                    </div>
+                        {/* Add space after word (except for last word) */}
+                        {wordIndex < words.length - 1 && (
+                            <LetterDisplay
+                                key={`${wordIndex}-space`}
+                                letter=" "
+                                showCursor={showCursor && (wordStartIndex + word.length) === cursorPosition}
+                                status={getLetterStatus(wordStartIndex + word.length)}
+                            />
+                        )}
+                    </span>
                 );
+
+                // Update global index for next word (word length + space)
+                globalIndex += word.length + (wordIndex < words.length - 1 ? 1 : 0);
+
+                return wordElement;
             })}
         </div>
     );

@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useTelexInput } from '../hooks/useTelex';
-import TextDisplay, { TextDisplayUseCase } from "./TextDisplay";
+import TextDisplay from "./TextDisplay";
 import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
 import InfoDisplay from './InfoDisplay';
 import { useMetrics } from '../hooks/useMetrics';
 import { useTextGenerator } from '../hooks/useTextGenerator';
-import { ProgressionDisplay } from './ProgressionDisplay';
+// import { ProgressionDisplay } from './ProgressionDisplay';
 import { LETTER_PROGRESSION } from '../utils/vietnameseLetterProgression';
 
 export const LetterStatus = {
@@ -19,20 +19,22 @@ export type LetterStatus = typeof LetterStatus[keyof typeof LetterStatus];
 
 const flatProgression = LETTER_PROGRESSION.flat();
 
+const STARTING_INDEX = 21; // Start with all base letters
+
 const TypingInterface: React.FC = () => {
 
     const { currentLetter, resetBuffer } = useTelexInput();
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
     const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
-    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(21);
+    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(STARTING_INDEX);
     const availableCharacters = useMemo(() => {
         return new Set(' ' + flatProgression.slice(0, currentProgressionIndex + 1));
     }, [currentProgressionIndex]);
 
     // Get the most recently added character for focused practice
     const targetCharacter = useMemo(() => {
-        return currentProgressionIndex > 0 ? flatProgression[currentProgressionIndex] : undefined;
+        return currentProgressionIndex > 0 && currentProgressionIndex != STARTING_INDEX ? flatProgression[currentProgressionIndex] : undefined;
     }, [currentProgressionIndex]);
 
     const { generatedText, generateText } = useTextGenerator({
@@ -101,17 +103,12 @@ const TypingInterface: React.FC = () => {
         <div>
             <InfoDisplay currentChar={currentLetter} wpm={wpm} accuracy={accuracy} />
             <TextDisplay
-                useCase={TextDisplayUseCase.MainDisplay}
                 text={generatedText}
                 showCursor={true}
-                showHighlight={false}
                 cursorPosition={cursorPosition}
-                highlightPosition={-1}
-                currentLetter={currentLetter}
-                latestLetterStatus={latestLetterStatus}
-                numberOfLines={2}
+                letterInProgress={currentLetter}
+                letterInProgressStatus={latestLetterStatus}
             />
-            <ProgressionDisplay highlightPosition={currentProgressionIndex} />
         </div>
     );
 };

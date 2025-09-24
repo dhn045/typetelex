@@ -7,20 +7,20 @@
 
 /* Two-line text field styles */
 
-.main-text-display {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.text-display {
   margin: 2rem auto;
   font-family: 'Courier New', monospace;
   font-weight: bold;
   font-size: 1.5rem;
+  word-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.text-line {
-  display: flex;
-  flex-wrap: nowrap;
-  min-height: 2em;
+.word {
+  white-space: nowrap;
+  display: inline-flex;
 }
 
 .letter {

@@ -42,18 +42,33 @@ export const LETTER_PROGRESSION = [
   // Vowels with diacrities from `_w` sequence
   ['ư', 'ơ', 'ă'],
 
-  // Dấu sắc (rising tone) - acute accent (´)
-  ['á', 'ắ', 'ấ', 'é', 'ế', 'í', 'ó', 'ố', 'ớ', 'ú', 'ứ', 'ý'],
+  // Dấu sắc (rising tone) - acute accent (´) with base letters
+  ['á', 'é', 'í', 'ó', 'ú', 'ý'],
 
-  // Dấu huyền (falling tone) - grave accent (`)
-  ['à', 'ằ', 'ầ', 'è', 'ề', 'ì', 'ò', 'ồ', 'ờ', 'ù', 'ừ', 'ỳ'],
+  // Dấu huyền (falling tone) - grave accent (`) with base letters
+  ['à', 'è', 'ì', 'ò', 'ù', 'ỳ'],
 
-  // Dấu hỏi (question tone) - hook above (?)
-  ['ả', 'ẳ', 'ẩ', 'ẻ', 'ể', 'ỉ', 'ỏ', 'ổ', 'ở', 'ủ', 'ử', 'ỷ'],
+  // Dấu hỏi (question tone) - hook above (?) with base letters
+  ['ả', 'ẻ', 'ỉ', 'ỏ', 'ủ', 'ỷ'],
   
-  // Dấu ngã (broken tone) - tilde (~)
-  ['ã', 'ẵ', 'ẫ', 'ẽ', 'ễ', 'ĩ', 'õ', 'ỗ', 'ỡ', 'ũ', 'ữ', 'ỹ'],
+  // Dấu ngã (broken tone) - tilde (~) with base letters
+  ['ã', 'ẽ', 'ĩ', 'õ', 'ũ', 'ỹ'],
 
-  // Dấu nặng (heavy tone) - dot below (.)
-  ['ạ', 'ặ', 'ậ', 'ẹ', 'ệ', 'ị', 'ọ', 'ộ', 'ợ', 'ụ', 'ự', 'ỵ']
+  // Dấu nặng (heavy tone) - dot below (.) with base letters
+  ['ạ', 'ẹ', 'ị', 'ọ', 'ụ', 'ỵ'],
+
+  // Dấu sắc (rising tone) - acute accent (´) with letters that have diacritics
+  ['ắ', 'ấ', 'ế', 'ố', 'ớ', 'ứ'],
+
+  // Dấu huyền (falling tone) - grave accent (`) with letters that have diacritics
+  ['ằ', 'ầ', 'ề', 'ồ', 'ờ', 'ừ'],
+
+  // Dấu hỏi (question tone) - hook above (?) with letters that have diacritics
+  ['ẳ', 'ẩ', 'ể', 'ổ', 'ở', 'ử'],
+
+  // Dấu ngã (broken tone) - tilde (~) with letters that have diacritics
+  ['ẵ', 'ẫ', 'ễ', 'ỗ', 'ỡ', 'ữ'],
+
+  // Dấu nặng (heavy tone) - dot below (.) with letters that have diacritics
+  ['ặ', 'ậ', 'ệ', 'ộ', 'ợ', 'ự'],
 ]
