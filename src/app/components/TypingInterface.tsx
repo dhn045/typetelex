@@ -39,7 +39,7 @@ const TypingInterface: React.FC = () => {
 
     const { generatedText, generateText } = useTextGenerator({
         availableCharacters,
-        maxLength: 60,
+        maxLength: 80,
         targetCharacter
     });
 
@@ -100,7 +100,7 @@ const TypingInterface: React.FC = () => {
     }, [generateText]);
 
     return (
-        <div>
+        <div className="typing-interface">
             <InfoDisplay currentChar={currentLetter} wpm={wpm} accuracy={accuracy} />
             <TextDisplay
                 text={generatedText}

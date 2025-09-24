@@ -7,11 +7,15 @@
 
 /* Two-line text field styles */
 
+.typing-interface {
+  max-width: 60vw;
+}
+
 .text-display {
   margin: 2rem auto;
   font-family: 'Courier New', monospace;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   word-wrap: break-word;
   display: flex;
   flex-wrap: wrap;
@@ -29,7 +33,6 @@
   height: 1.5em;
   line-height: 1.5em;
   text-align: center;
-  border-radius: 2px;
   transition: background-color 0.2s ease;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -39,8 +42,17 @@
 }
 
 .letter.cursor {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid;
   animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+  }
+  51%, 100% {
+    border-bottom-color: transparent;
+  }
 }
 
 .letter.untyped {
@@ -57,15 +69,6 @@
 
 .letter.partially-correct {
   color: #ffd93b;
-}
-
-@keyframes blink {
-  0%, 50% {
-    border-bottom-color: #333;
-  }
-  51%, 100% {
-    border-bottom-color: transparent;
-  }
 }
 
 /* Progression Display Styles */
