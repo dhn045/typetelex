@@ -27,7 +27,7 @@ const TypingInterface: React.FC = () => {
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
     const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
-    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(STARTING_INDEX + 2);
+    const [currentProgressionIndex, setCurrentProgressionIndex] = useState<number>(STARTING_INDEX);
     const availableCharacters = useMemo(() => {
         return new Set(' ' + flatProgression.slice(0, currentProgressionIndex + 1));
     }, [currentProgressionIndex]);

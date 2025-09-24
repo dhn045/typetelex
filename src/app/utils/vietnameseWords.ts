@@ -7706,7 +7706,6 @@ export const VIETNAMESE_WORDS: string[] = [
   "thột",
   "puộc",
   "èng",
-  "xrê",
   "thộc",
   "xệt",
   "luỗng",
