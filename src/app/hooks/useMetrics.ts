@@ -56,8 +56,6 @@ export const useMetrics = () => {
         setStartTime(null);
         setTotalCharactersTyped(0);
         setCorrectCharactersTyped(0);
-        setCurrentWpm(0);
-        setCurrentAccuracy(100);
     }, []);
 
     return {
