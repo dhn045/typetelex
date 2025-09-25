@@ -81,27 +81,72 @@
 
 /* Progression Display Styles */
 .progression-display {
+  margin: 2rem auto;
+  font-family: 'Courier New', monospace;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
-  font-size: 1rem;
+  gap: 1rem;
+  max-width: 80%;
 }
 
-.progression-display .text-line {
+.progression-levels {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.progression-level {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
 }
 
-.progression-display .letter {
-  min-width: 1rem;
+.progression-level.completed {
+  background-color: rgba(0, 255, 0, 0.2);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.progression-display .letter.highlight {
-  min-width: 1rem;
-  background-color: green;
+.progression-level.current {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  /* box-shadow: 0 0 10px rgba(0, 255, 0, 0.3); */
+}
+
+.progression-letters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 3rem;
+  align-items: center;
+}
+
+.progression-letter {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2rem;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+}
+
+.progression-letter.completed {
+  background-color: rgba(0, 255, 0, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.progression-letter.current {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 /* Info Display Styles */

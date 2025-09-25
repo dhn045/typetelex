@@ -7,6 +7,10 @@ interface SequenceDisplayProps {
 }
 
 const SequenceDisplay: React.FC<SequenceDisplayProps> = ({ targetChar, currentInput }) => {
+    if (!targetChar || targetChar === ' ') {
+        return null;
+    }
+
     const [litUpCount, setLitUpCount] = useState(0);
     const [isSequenceComplete, setIsSequenceComplete] = useState(false);
 
@@ -17,10 +21,6 @@ const SequenceDisplay: React.FC<SequenceDisplayProps> = ({ targetChar, currentIn
         }
         return [char];
     };
-
-    if (!targetChar || targetChar === ' ') {
-        return null;
-    }
 
     const sequence = getSequence(targetChar);
     const targetSequence = REVERSE_TELEX_MAP[targetChar];

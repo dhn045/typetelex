@@ -5,7 +5,7 @@ import { TELEX_INTERMEDIATE_FORMS } from "../utils/telex";
 import InfoDisplay from './InfoDisplay';
 import { useMetrics } from '../hooks/useMetrics';
 import { useTextGenerator } from '../hooks/useTextGenerator';
-// import { ProgressionDisplay } from './ProgressionDisplay';
+import ProgressionDisplay from './ProgressionDisplay';
 import { LETTER_PROGRESSION } from '../utils/vietnameseLetterProgression';
 import { useProgressionPersistence } from '../hooks/useProgressionPersistence';
 
@@ -116,6 +116,7 @@ const TypingInterface: React.FC = () => {
                 letterInProgress={currentLetter}
                 letterInProgressStatus={latestLetterStatus}
             />
+            <ProgressionDisplay currentProgressionIndex={currentProgressionIndex} />
         </div>
     );
 };
