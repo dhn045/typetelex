@@ -59,7 +59,7 @@ const TypingInterface: React.FC = () => {
             setLatestLetterStatus(LetterStatus.Untyped);
             logCorrectCharacter();
             if (cursorPosition + 1 >= generatedText.length) {
-                if (wpm > 30 && accuracy > .90) {
+                if (wpm >= 30 && accuracy >= 0.90) {
                     setCurrentProgressionIndex(prev => prev + 1);
                 } else {
                     generateText();
