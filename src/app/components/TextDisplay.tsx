@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import LetterDisplay from './LetterDisplay';
 import { LetterStatus } from './TypingInterface';
 
@@ -17,6 +17,7 @@ const TextDisplay: React.FC<TextDisplayProps> = ({
     letterInProgress,
     letterInProgressStatus
 }) => {
+    const hiddenInputRef = useRef<HTMLInputElement>(null);
 
     const getLetterStatus = (globalIndex: number): LetterStatus => {
         if (globalIndex < cursorPosition) {
@@ -28,12 +29,19 @@ const TextDisplay: React.FC<TextDisplayProps> = ({
         }
     };
 
+    const handleTextDisplayClick = () => {
+        // Focus the hidden input to trigger mobile keyboard
+        if (hiddenInputRef.current) {
+            hiddenInputRef.current.focus();
+        }
+    };
+
     // Split text into words and render them, letting CSS handle the wrapping
     const words = text.split(' ');
     let globalIndex = 0;
 
     return (
-        <div className="text-display">
+        <div className="text-display" onClick={handleTextDisplayClick}>
             {words.map((word, wordIndex) => {
                 const wordStartIndex = globalIndex;
                 const wordElement = (
@@ -66,6 +74,18 @@ const TextDisplay: React.FC<TextDisplayProps> = ({
 
                 return wordElement;
             })}
+            {/* Hidden input for mobile keyboard support */}
+            <input
+                ref={hiddenInputRef}
+                type="text"
+                className="mobile-keyboard-input"
+                autoComplete="off"
+                autoCapitalize="off"
+                autoCorrect="off"
+                spellCheck={false}
+                tabIndex={-1}
+                aria-hidden="true"
+            />
         </div>
     );
 };

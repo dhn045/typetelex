@@ -11,6 +11,13 @@
   max-width: 60vw;
 }
 
+@media (max-width: 768px) {
+  .typing-interface {
+    max-width: none;
+    width: 100%;
+  }
+}
+
 .text-display {
   margin: 2rem auto;
   font-family: 'Courier New', monospace;
@@ -38,8 +45,8 @@
   border-bottom: 2px solid transparent;
 }
 
-.letter:hover {
-  background-color: #1d1d1d;
+.letter::selection {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .letter.cursor {
@@ -106,6 +113,31 @@
   font-family: 'Andale Mono', monospace;
 }
 
+.info-display-top {
+  display: contents;
+}
+
+/* Stack layout for narrow screens */
+@media (max-width: 768px) {
+  .info-display {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+
+  .info-display-top {
+    display: contents;
+  }
+
+  .sequence-display {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .current-char {
   display: flex;
   justify-content: center;
@@ -165,4 +197,14 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   color: white;
+}
+
+/* Mobile keyboard support */
+.mobile-keyboard-input {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
 }

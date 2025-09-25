@@ -7378,7 +7378,6 @@ export const VIETNAMESE_WORDS: string[] = [
   "chạt",
   "ẳn",
   "đac",
-  "xinê",
   "ngõi",
   "õm",
   "déo",

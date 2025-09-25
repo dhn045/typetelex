@@ -10,17 +10,20 @@ interface InfoDisplayProps {
 const InfoDisplay: React.FC<InfoDisplayProps> = ({ currentChar, wpm, accuracy, targetChar }) => {
   return (
     <div className="info-display">
-      <div className="current-char">
-        {currentChar || '-'}
+      <div className="info-display-top">
+        <div className="current-char">
+          {currentChar || '-'}
+        </div>
       </div>
       <SequenceDisplay targetChar={targetChar} />
-      <div className="metrics">
-        <div className="accuracy">
-          {accuracy.toFixed(1)}%
-        </div>
-
-        <div className="wpm">
-          {wpm}
+      <div className="info-display-top">
+        <div className="metrics">
+          <div className="accuracy">
+            {accuracy.toFixed(1)}%
+          </div>
+          <div className="wpm">
+            {wpm}
+          </div>
         </div>
       </div>
     </div>
