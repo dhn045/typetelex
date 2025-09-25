@@ -7310,7 +7310,6 @@ export const VIETNAMESE_WORDS: string[] = [
   "nuốm",
   "quệch",
   "gặn",
-  "mrơn",
   "trếnh",
   "lóe",
   "ài",
