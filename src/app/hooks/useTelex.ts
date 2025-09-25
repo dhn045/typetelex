@@ -3,13 +3,14 @@ import { TELEX_MAP } from '../utils/telex';
 
 interface UseTelexInputReturn {
   currentLetter: string;
+  charBuffer: string;
   resetBuffer: () => void;
 }
 
 const ALPHA_REGEX = /^[a-zA-Z ]$/;
 
 export const useTelexInput = (): UseTelexInputReturn => {
-  const [, setCharBuffer] = useState<string>('');
+  const [charBuffer, setCharBuffer] = useState<string>('');
   const [currentLetter, setCurrentLetter] = useState<string>('');
 
   useEffect(() => {
@@ -47,6 +48,7 @@ export const useTelexInput = (): UseTelexInputReturn => {
 
   return {
     currentLetter,
+    charBuffer,
     resetBuffer,
   };
 };

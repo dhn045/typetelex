@@ -24,7 +24,7 @@ const STARTING_INDEX = 21; // Start with all base letters
 
 const TypingInterface: React.FC = () => {
 
-    const { currentLetter, resetBuffer } = useTelexInput();
+    const { currentLetter, charBuffer, resetBuffer } = useTelexInput();
     const [cursorPosition, setCursorPosition] = useState<number>(0);
     const [latestLetterStatus, setLatestLetterStatus] = useState<LetterStatus>(LetterStatus.Untyped);
     const { wpm, accuracy, logCorrectCharacter, logIncorrectCharacter, resetMetrics } = useMetrics();
@@ -107,6 +107,7 @@ const TypingInterface: React.FC = () => {
                 wpm={wpm}
                 accuracy={accuracy}
                 targetChar={targetCharacter}
+                currentInput={charBuffer}
             />
             <TextDisplay
                 text={generatedText}

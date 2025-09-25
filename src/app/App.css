@@ -186,6 +186,28 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.sequence-char.lit-up {
+  background-color: rgba(0, 255, 0, 0.3);
+  color: #00ff00;
+  animation: lightUp 0.5s ease-out;
+}
+
+@keyframes lightUp {
+  0% {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1);
+  }
+  50% {
+    background-color: rgba(0, 255, 0, 0.6);
+    transform: scale(1.1);
+  }
+  100% {
+    background-color: rgba(0, 255, 0, 0.3);
+    transform: scale(1);
+  }
 }
 
 .sequence-separator {
@@ -197,6 +219,13 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.sequence-result.lit-up {
+  background-color: rgba(0, 255, 0, 0.3);
+  color: #00ff00;
+  animation: lightUp 0.5s ease-out;
 }
 
 /* Mobile keyboard support */
