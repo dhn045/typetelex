@@ -85,6 +85,12 @@ const TextDisplay: React.FC<TextDisplayProps> = ({
                 spellCheck={false}
                 tabIndex={-1}
                 aria-hidden="true"
+                value=""
+                onChange={() => {}} // Prevent controlled input warnings
+                onKeyDown={(e) => {
+                    // Let the event bubble up to window for useTelex to handle
+                    // Don't preventDefault here - let it reach the normal handlers
+                }}
             />
         </div>
     );
